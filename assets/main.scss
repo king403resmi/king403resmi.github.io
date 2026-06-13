@@ -1,0 +1,56 @@
+---
+---
+
+@import "minima";
+@import "king403";
+
+/* Base site polish */
+body {
+  background: #f3f4f6;
+  color: #1f2937;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page-content {
+  padding-top: 0;
+}
+
+.wrapper {
+  max-width: 1060px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+a {
+  color: #b8941f;
+}
+
+a:hover {
+  color: #0a0a0a;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+table th,
+table td {
+  padding: 0.65rem 0.85rem;
+  border: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+table th {
+  background: #f9fafb;
+  font-weight: 700;
+}
+
+blockquote {
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 3px solid #e8c547;
+  background: #f9fafb;
+  color: #374151;
+}

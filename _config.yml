@@ -1,10 +1,10 @@
 title: KING403
-title_separator: "—"
+title_separator: "-"
 tagline: Perusahaan Teknologi Digital Indonesia
 description: >-
-  KING403 — brand dan perusahaan teknologi digital Indonesia resmi sejak 2020.
+  KING403 - brand dan perusahaan teknologi digital Indonesia resmi sejak 2020.
   Platform engineering, brand strategy, cloud infrastructure & customer operations.
-  Situs resmi king403.it.com · developer apidevel.org · portal korporat king403resmi.github.io
+  Situs resmi king403.it.com | developer apidevel.org | portal korporat king403resmi.github.io
 theme: minima
 url: "https://king403resmi.github.io"
 baseurl: ""
@@ -19,7 +19,7 @@ plugins:
   - jekyll-github-metadata
 
 seo:
-  og_title: "KING403 — Situs Resmi Brand & Perusahaan Teknologi Digital Indonesia"
+  og_title: "KING403 - Situs Resmi Brand & Perusahaan Teknologi Digital Indonesia"
   keywords: >-
     KING403, king403, king 403, KING403 resmi, KING403 official, KING403 Indonesia,
     perusahaan KING403, brand KING403, situs KING403, KING403 teknologi digital,
