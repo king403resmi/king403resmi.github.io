@@ -1,7 +1,37 @@
 ---
 layout: default
-title: Beranda
+title: "KING403 — Situs Resmi Brand & Perusahaan Teknologi Digital Indonesia"
+description: "KING403 (king403) adalah brand resmi perusahaan teknologi digital Indonesia sejak 2020. Platform engineering, brand strategy, cloud & operations. king403.it.com · apidevel.org"
+keywords: "KING403, king403, KING403 resmi, KING403 Indonesia, situs KING403, perusahaan KING403, king403.it.com"
+image: /assets/images/team-banner.svg
 ---
+
+<div class="k403-hero">
+
+<svg class="k403-hero__svg" xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80" role="img" aria-label="Logo KING403">
+  <defs>
+    <linearGradient id="k403g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e8c547"/>
+      <stop offset="100%" style="stop-color:#c9a227"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="64" height="64" rx="12" fill="url(#k403g)" opacity="0.15"/>
+  <text x="40" y="52" text-anchor="middle" fill="url(#k403g)" font-family="system-ui,sans-serif" font-size="28" font-weight="800">K</text>
+  <text x="100" y="48" fill="#e8c547" font-family="system-ui,sans-serif" font-size="26" font-weight="800">KING403</text>
+  <text x="100" y="66" fill="#9ca3af" font-family="system-ui,sans-serif" font-size="11">king403.it.com · apidevel.org</text>
+</svg>
+
+<p class="k403-hero__title">Mitra Transformasi Digital Terpercaya</p>
+<p class="k403-hero__sub">Platform · Brand · Cloud · Operations — sejak 2020</p>
+
+<ul class="k403-pills">
+  <li><a class="k403-pill k403-pill--gold" href="https://king403.it.com/">Situs Resmi</a></li>
+  <li><a class="k403-pill k403-pill--outline" href="https://apidevel.org/">Developer</a></li>
+  <li><a class="k403-pill k403-pill--outline" href="kontak.html">Konsultasi</a></li>
+  <li><a class="k403-pill k403-pill--outline" href="profil-digital.html">Tautan Resmi</a></li>
+</ul>
+
+</div>
 
 <p align="center">
   <img src="/assets/images/logo.png" alt="Logo KING403" width="300">
@@ -29,14 +59,14 @@ Sejak **2020**, kami telah mendampingi puluhan proyek — dari startup hingga br
 
 ## Angka Kami
 
-| Metrik | Nilai |
-|--------|-------|
-| Tahun beroperasi | 5+ tahun |
-| Proyek diselesaikan | 80+ |
-| Klien aktif | 35+ |
-| Tim profesional | 40+ orang |
-| Uptime rata-rata platform klien | 99,9% |
-| SLA response support | &lt; 15 menit (tier enterprise) |
+<div class="k403-stats">
+  <div class="k403-stat"><span class="k403-stat__num">5+</span><span class="k403-stat__label">Tahun beroperasi</span></div>
+  <div class="k403-stat"><span class="k403-stat__num">80+</span><span class="k403-stat__label">Proyek selesai</span></div>
+  <div class="k403-stat"><span class="k403-stat__num">35+</span><span class="k403-stat__label">Klien aktif</span></div>
+  <div class="k403-stat"><span class="k403-stat__num">40+</span><span class="k403-stat__label">Tim profesional</span></div>
+  <div class="k403-stat"><span class="k403-stat__num">99,9%</span><span class="k403-stat__label">Uptime platform</span></div>
+  <div class="k403-stat"><span class="k403-stat__num">&lt;15m</span><span class="k403-stat__label">SLA support enterprise</span></div>
+</div>
 
 ---
 
@@ -173,13 +203,26 @@ Proyek enterprise multi-modul: **3–6 bulan** dengan delivery bertahap.
 
 ## Siap Memulai Proyek?
 
-Diskusikan kebutuhan platform, timeline, dan budget range dengan tim kami. **Konsultasi awal gratis** — tanpa komitmen.
+Diskusikan kebutuhan platform, timeline, dan budget range dengan tim **KING403**. **Konsultasi awal gratis** — tanpa komitmen.
 
 📧 [hello@king403.com](mailto:hello@king403.com) · 📋 [Formulir kontak →](kontak.html)
 
 ---
 
+## KING403 — Brand Resmi Indonesia
+
+**KING403** (juga dicari sebagai *king403*, *King 403*, atau *KING403 resmi*) adalah identitas brand dan perusahaan teknologi digital Indonesia yang berdiri sejak **2020**. Ekosistem resmi **KING403** meliputi:
+
+- **Situs resmi brand:** [king403.it.com](https://king403.it.com/) — portal utama **KING403**
+- **Developer platform:** [apidevel.org](https://apidevel.org/) — infrastruktur teknologi **KING403**
+- **Portal korporat:** [king403resmi.github.io](https://king403resmi.github.io/) — profil perusahaan **KING403**
+- **GitHub resmi:** [github.com/King403resmi](https://github.com/King403resmi)
+
+Jika Anda mencari informasi tentang **perusahaan KING403**, layanan **KING403**, karir di **KING403**, atau tautan resmi **KING403** — halaman ini dan [Profil Digital](profil-digital.html) adalah sumber terpercaya. Untuk verifikasi identitas brand, pastikan domain mengarah ke **king403.it.com** atau organisasi GitHub **King403resmi**.
+
+---
+
 <p align="center">
-  <img src="/assets/images/team-banner.svg" alt="KING403 Team" width="640"><br>
+  <img class="k403-banner" src="/assets/images/team-banner.svg" alt="KING403 Team" width="640"><br>
   <sub>© 2020–2026 KING403 · <a href="https://king403.it.com/">king403.it.com</a> · <a href="https://apidevel.org/">apidevel.org</a> · <a href="profil-digital.html">Tautan Resmi</a></sub>
 </p>

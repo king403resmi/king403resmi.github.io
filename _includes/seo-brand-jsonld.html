@@ -1,0 +1,56 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ site.official.site }}/#organization",
+      "name": "KING403",
+      "alternateName": ["king403", "King 403", "KING403 Indonesia", "KING403 Resmi", "king403.it.com"],
+      "url": "{{ site.official.site }}/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ '/assets/images/team-banner.svg' | absolute_url }}",
+        "caption": "KING403 Logo"
+      },
+      "description": "{{ site.description | strip_newlines | escape }}",
+      "email": "hello@king403.com",
+      "foundingDate": "2020",
+      "areaServed": "ID",
+      "knowsAbout": ["Digital Transformation", "Platform Engineering", "Brand Strategy", "Cloud Infrastructure"],
+      "sameAs": [
+        "{{ site.official.site }}/",
+        "{{ site.official.developer }}/",
+        "{{ site.official.corporate_portal }}/",
+        "{{ site.official.github_org }}/",
+        "{{ site.official.github_situs_org }}/"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "email": "hello@king403.com",
+        "availableLanguage": ["Indonesian", "English"]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "name": "KING403",
+      "alternateName": "Portal Korporat KING403",
+      "url": "{{ site.url }}/",
+      "publisher": { "@id": "{{ site.official.site }}/#organization" },
+      "inLanguage": "id-ID"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url }}#webpage",
+      "url": "{{ page.url | absolute_url }}",
+      "name": "{% if page.url == '/' or page.url == '/index.html' %}{{ site.seo.og_title }}{% else %}{{ page.title | default: site.title }} | KING403{% endif %}",
+      "description": "{{ page.description | default: site.description | strip_newlines | escape }}",
+      "isPartOf": { "@id": "{{ site.url }}/#website" },
+      "about": { "@id": "{{ site.official.site }}/#organization" },
+      "inLanguage": "id-ID"
+    }
+  ]
+}
+</script>

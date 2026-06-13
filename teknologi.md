@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Teknologi & Metodologi
+title: "Teknologi KING403 — Stack, Arsitektur & Metodologi"
+description: "Stack teknologi dan metodologi engineering KING403: frontend, backend, cloud, DevOps, QA, dan keamanan."
+keywords: "KING403 teknologi, tech stack KING403, engineering KING403"
 ---
 
 # Teknologi & Metodologi

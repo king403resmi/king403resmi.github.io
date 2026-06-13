@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Profil Digital & Tautan Resmi
+title: "Profil Digital KING403 — Tautan Resmi Brand"
+description: "Pusat tautan resmi KING403: king403.it.com, apidevel.org, GitHub King403resmi, dan portal korporat."
+keywords: "KING403 resmi, link KING403, tautan KING403, profil digital KING403, king403.it.com"
 ---
 
 # Profil Digital KING403

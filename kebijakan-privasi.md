@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Kebijakan Privasi
+title: "Kebijakan Privasi KING403"
+description: "Kebijakan privasi resmi KING403 — pengumpulan, penggunaan, keamanan, dan hak data pengguna."
+keywords: "KING403 privasi, kebijakan privasi KING403"
 ---
 
 # Kebijakan Privasi

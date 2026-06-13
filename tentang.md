@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Tentang Kami
+title: "Tentang KING403 — Profil Perusahaan Teknologi Digital"
+description: "Profil lengkap KING403: sejarah, visi, nilai, tim, dan jejak digital resmi brand KING403 Indonesia sejak 2020."
+keywords: "KING403, tentang KING403, profil KING403, perusahaan KING403, KING403 Indonesia"
 ---
 
 # Tentang KING403

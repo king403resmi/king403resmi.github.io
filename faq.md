@@ -1,6 +1,8 @@
 ---
 layout: default
-title: FAQ
+title: "FAQ KING403 — Pertanyaan Umum Brand & Layanan"
+description: "FAQ resmi KING403: apa itu KING403, situs resmi, layanan, karir, kontak, dan profil GitHub."
+keywords: "KING403 FAQ, pertanyaan KING403, KING403 apa, situs resmi KING403"
 ---
 
 # Pertanyaan Umum (FAQ)

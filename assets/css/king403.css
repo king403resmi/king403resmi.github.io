@@ -1,0 +1,105 @@
+/* KING403 — custom styles (scoped .k403-*) */
+
+.k403-hero {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 2rem;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  border: 1px solid rgba(232, 197, 71, 0.25);
+  text-align: center;
+}
+
+.k403-hero__svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+}
+
+.k403-hero__title {
+  margin: 0 0 0.5rem;
+  color: #e8c547;
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.k403-hero__sub {
+  margin: 0 0 1.25rem;
+  color: #9ca3af;
+  font-size: 0.95rem;
+}
+
+.k403-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.k403-pill {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.k403-pill:hover {
+  opacity: 0.85;
+  text-decoration: none;
+}
+
+.k403-pill--gold {
+  background: #e8c547;
+  color: #0a0a0a;
+}
+
+.k403-pill--outline {
+  border: 1px solid rgba(232, 197, 71, 0.5);
+  color: #e8c547;
+}
+
+.k403-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.k403-stat {
+  padding: 1rem;
+  border-radius: 10px;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  text-align: center;
+}
+
+.k403-stat__num {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #0a0a0a;
+  line-height: 1.2;
+}
+
+.k403-stat__label {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.k403-banner {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
