@@ -1,11 +1,39 @@
+{%- assign page_url = page.url | absolute_url -%}
+{%- assign page_base = page.path | remove: '.md' | remove: '.html' -%}
+{%- assign is_home = false -%}
+{%- if page.url == '/' or page.url == '/index.html' or page_base == 'index' -%}
+  {%- assign is_home = true -%}
+{%- endif -%}
+{%- assign page_image = page.image | default: site.seo.image | absolute_url -%}
+{%- assign page_desc = page.description | default: site.description | strip_newlines | replace: '"', '\"' -%}
+{%- if is_home -%}
+  {%- assign page_name = site.seo.og_title -%}
+{%- else -%}
+  {%- assign page_name = page.title | append: ' | KING403' -%}
+{%- endif -%}
+{%- assign page_types = '"WebPage"' -%}
+{%- if page_base == 'tentang' or page_base == 'tim' -%}
+  {%- assign page_types = '"WebPage","AboutPage"' -%}
+{%- elsif page_base == 'kontak' -%}
+  {%- assign page_types = '"WebPage","ContactPage"' -%}
+{%- elsif page_base == 'faq' -%}
+  {%- assign page_types = '"WebPage","FAQPage"' -%}
+{%- elsif page_base == 'profil-digital' -%}
+  {%- assign page_types = '"WebPage","ProfilePage"' -%}
+{%- elsif page_base == 'berita' -%}
+  {%- assign page_types = '"WebPage","Blog"' -%}
+{%- elsif page_base == 'layanan' or page_base == 'proyek' or page_base == 'testimoni' or page_base == 'galeri' -%}
+  {%- assign page_types = '"WebPage","CollectionPage"' -%}
+{%- endif -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
+      "@type": ["Organization", "Corporation"],
       "@id": "{{ site.official.site }}/#organization",
       "name": "KING403",
+      "legalName": "KING403",
       "alternateName": ["king403", "King 403", "KING403 Indonesia", "KING403 Resmi", "king403.it.com"],
       "url": "{{ site.official.site }}/",
       "logo": {
@@ -16,12 +44,22 @@
         "height": 400,
         "caption": "KING403 Logo"
       },
-      "image": "{{ '/assets/images/og-image.svg' | absolute_url }}",
+      "image": {
+        "@type": "ImageObject",
+        "url": "{{ '/assets/images/og-image.svg' | absolute_url }}",
+        "width": 1200,
+        "height": 630
+      },
       "description": "{{ site.description | strip_newlines | replace: '"', '\"' }}",
       "email": "hello@king403.com",
       "foundingDate": "2020",
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Jakarta",
+        "address": { "@type": "PostalAddress", "addressCountry": "ID", "addressLocality": "Jakarta" }
+      },
       "areaServed": { "@type": "Country", "name": "Indonesia" },
-      "knowsAbout": ["Digital Transformation", "Platform Engineering", "Brand Strategy", "Cloud Infrastructure", "DevOps"],
+      "knowsAbout": ["Digital Transformation", "Platform Engineering", "Brand Strategy", "Cloud Infrastructure", "DevOps", "Game Development"],
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5",
@@ -34,11 +72,12 @@
         "{{ site.official.developer }}/",
         "{{ site.official.corporate_portal }}/",
         "{{ site.official.nekoweb }}/",
+        "{{ site.official.portal_brand }}/",
+        "{{ site.official.join_support }}",
         "{{ site.official.github_org }}/",
         "{{ site.official.github_repo }}/",
         "{{ site.official.github_situs_org }}/",
         "{{ site.official.github_situs_repo }}/",
-        "{{ site.official.portal_brand }}/",
         "{{ site.official.heycard }}",
         "{{ site.official.heylink }}",
         "{{ site.official.youtube }}"
@@ -48,12 +87,20 @@
           "@type": "ContactPoint",
           "contactType": "customer service",
           "email": "hello@king403.com",
-          "availableLanguage": ["Indonesian", "English"]
+          "availableLanguage": ["Indonesian", "English"],
+          "areaServed": "ID"
         },
         {
           "@type": "ContactPoint",
           "contactType": "sales",
-          "email": "partnership@king403.com"
+          "email": "partnership@king403.com",
+          "availableLanguage": ["Indonesian", "English"]
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "careers",
+          "email": "careers@king403.com",
+          "availableLanguage": ["Indonesian", "English"]
         }
       ]
     },
@@ -61,95 +108,210 @@
       "@type": "WebSite",
       "@id": "{{ site.url }}/#website",
       "name": "KING403",
-      "alternateName": "Portal Korporat KING403",
+      "alternateName": ["Portal Korporat KING403", "king403resmi.github.io"],
       "url": "{{ site.url }}/",
+      "description": "{{ site.description | strip_newlines | replace: '"', '\"' }}",
       "publisher": { "@id": "{{ site.official.site }}/#organization" },
-      "inLanguage": "id-ID"
+      "inLanguage": "id-ID",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.google.com/search?q=site:king403resmi.github.io+{search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
     },
     {
-      "@type": "WebPage",
-      "@id": "{{ page.url | absolute_url }}#webpage",
-      "url": "{{ page.url | absolute_url }}",
-      "name": "{% if page.url == '/' or page.url == '/index.html' %}{{ site.seo.og_title }}{% else %}{{ page.title | default: site.title }} | KING403{% endif %}",
-      "description": "{{ page.description | default: site.description | strip_newlines | replace: '"', '\"' }}",
+      "@type": "SiteNavigationElement",
+      "@id": "{{ site.url }}/#navigation",
+      "name": "Navigasi utama KING403",
+      "isPartOf": { "@id": "{{ site.url }}/#website" },
+      "hasPart": [
+        { "@type": "WebPage", "name": "Beranda", "url": "{{ site.url }}/" }
+        {%- for nav_path in site.header_pages -%}
+        {%- assign nav_page = site.pages | where: "path", nav_path | first -%}
+        {%- if nav_page -%}
+        ,{ "@type": "WebPage", "name": {{ nav_page.title | jsonify }}, "url": {{ nav_page.url | absolute_url | jsonify }} }
+        {%- endif -%}
+        {%- endfor -%}
+        ,{ "@type": "WebPage", "name": "Profil Digital", "url": "{{ '/profil-digital/' | absolute_url }}" }
+      ]
+    },
+    {
+      "@type": [{{ page_types }}],
+      "@id": "{{ page_url }}#webpage",
+      "url": {{ page_url | jsonify }},
+      "name": {{ page_name | jsonify }},
+      "description": {{ page_desc | jsonify }},
       "isPartOf": { "@id": "{{ site.url }}/#website" },
       "about": { "@id": "{{ site.official.site }}/#organization" },
-      "inLanguage": "id-ID"
-      {%- if page.url == '/' or page.url == '/index.html' -%}
-      ,"primaryImageOfPage": { "@type": "ImageObject", "url": "{{ '/assets/images/og-image.svg' | absolute_url }}" }
-      {%- endif -%}
-    }
-    {%- unless page.url == '/' or page.url == '/index.html' -%}
-    ,{
+      "publisher": { "@id": "{{ site.official.site }}/#organization" },
+      "inLanguage": "id-ID",
+      "datePublished": "2020-01-01",
+      "dateModified": "{{ site.time | date: '%Y-%m-%d' }}",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": {{ page_image | jsonify }},
+        "width": 1200,
+        "height": 630
+      },
+      "breadcrumb": { "@id": "{{ page_url }}#breadcrumb" }
+    },
+    {
       "@type": "BreadcrumbList",
-      "@id": "{{ page.url | absolute_url }}#breadcrumb",
+      "@id": "{{ page_url }}#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Beranda",
           "item": "{{ site.url }}/"
-        },
-        {
+        }
+        {%- unless is_home -%}
+        ,{
           "@type": "ListItem",
           "position": 2,
-          "name": "{{ page.title | default: 'Halaman' | escape }}",
-          "item": "{{ page.url | absolute_url }}"
+          "name": {{ page.title | default: 'Halaman' | jsonify }},
+          "item": {{ page_url | jsonify }}
+        }
+        {%- endunless -%}
+      ]
+    }
+    {%- if page_base == 'layanan' -%}
+    ,{
+      "@type": "ItemList",
+      "@id": "{{ page_url }}#services",
+      "name": "Layanan KING403",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "item": { "@type": "Service", "name": "Platform & Engineering", "provider": { "@id": "{{ site.official.site }}/#organization" }, "areaServed": "Indonesia" } },
+        { "@type": "ListItem", "position": 2, "item": { "@type": "Service", "name": "Brand & Creative", "provider": { "@id": "{{ site.official.site }}/#organization" }, "areaServed": "Indonesia" } },
+        { "@type": "ListItem", "position": 3, "item": { "@type": "Service", "name": "Cloud & DevOps", "provider": { "@id": "{{ site.official.site }}/#organization" }, "areaServed": "Indonesia" } },
+        { "@type": "ListItem", "position": 4, "item": { "@type": "Service", "name": "Operasi & Customer Success", "provider": { "@id": "{{ site.official.site }}/#organization" }, "areaServed": "Indonesia" } },
+        { "@type": "ListItem", "position": 5, "item": { "@type": "Service", "name": "Keamanan & Compliance", "provider": { "@id": "{{ site.official.site }}/#organization" }, "areaServed": "Indonesia" } },
+        { "@type": "ListItem", "position": 6, "item": { "@type": "Service", "name": "Game & Interactive", "provider": { "@id": "{{ site.official.site }}/#organization" }, "areaServed": "Indonesia" } }
+      ]
+    }
+    {%- endif -%}
+    {%- if is_home or page_base == 'testimoni' -%}
+    ,{
+      "@type": "ItemList",
+      "@id": "{{ page_url }}#reviews",
+      "name": "Testimoni Klien KING403",
+      "itemListElement": [
+        {%- if is_home -%}
+          {%- assign review_items = site.data.testimonials | where: "featured", true -%}
+        {%- else -%}
+          {%- assign review_items = site.data.testimonials -%}
+        {%- endif -%}
+        {%- for t in review_items limit: 12 -%}
+          {%- unless forloop.first -%},{%- endunless -%}
+          {
+            "@type": "ListItem",
+            "position": {{ forloop.index }},
+            "item": {
+              "@type": "Review",
+              "@id": "{{ page_url }}#review-{{ t.id }}",
+              "reviewBody": {{ t.quote | jsonify }},
+              "name": {{ t.project | default: 'Proyek KING403' | jsonify }},
+              "datePublished": "2025-01-01",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": {{ t.rating | default: 5 }},
+                "bestRating": 5,
+                "worstRating": 1
+              },
+              "author": {
+                "@type": "Person",
+                "name": {{ t.name | jsonify }},
+                "jobTitle": {{ t.role | jsonify }},
+                "worksFor": { "@type": "Organization", "name": {{ t.company | jsonify }} }
+              },
+              "itemReviewed": { "@id": "{{ site.official.site }}/#organization" }
+            }
+          }
+        {%- endfor -%}
+      ]
+    }
+    {%- endif -%}
+    {%- if page_base == 'berita' -%}
+    ,{
+      "@type": "Blog",
+      "@id": "{{ page_url }}#blog",
+      "name": "Berita & Insight KING403",
+      "url": {{ page_url | jsonify }},
+      "publisher": { "@id": "{{ site.official.site }}/#organization" },
+      "blogPost": [
+        {
+          "@type": "NewsArticle",
+          "headline": "KING403 Perluas Divisi Cloud & Security",
+          "datePublished": "2026-06-03",
+          "url": "{{ '/berita/' | absolute_url }}#perluas-divisi-cloud",
+          "author": { "@type": "Organization", "name": "KING403" },
+          "publisher": { "@id": "{{ site.official.site }}/#organization" }
+        },
+        {
+          "@type": "NewsArticle",
+          "headline": "Best Practice Arsitektur Multi-Tenant 2026",
+          "datePublished": "2026-05-01",
+          "url": "{{ '/berita/' | absolute_url }}#best-practice-multi-tenant",
+          "author": { "@type": "Organization", "name": "KING403 Engineering" },
+          "publisher": { "@id": "{{ site.official.site }}/#organization" }
+        },
+        {
+          "@type": "NewsArticle",
+          "headline": "Partnership dengan Provider CDN Regional",
+          "datePublished": "2026-04-01",
+          "url": "{{ '/berita/' | absolute_url }}#partnership-cdn",
+          "author": { "@type": "Organization", "name": "KING403" },
+          "publisher": { "@id": "{{ site.official.site }}/#organization" }
         }
       ]
     }
-    {%- endunless -%}
-    {%- if page.url contains 'layanan' -%}
-    ,{
-      "@type": "Service",
-      "@id": "{{ page.url | absolute_url }}#service",
-      "name": "Layanan KING403",
-      "provider": { "@id": "{{ site.official.site }}/#organization" },
-      "areaServed": "Indonesia",
-      "serviceType": "Digital Technology Services",
-      "description": "{{ page.description | strip_newlines | replace: '"', '\"' }}"
-    }
     {%- endif -%}
-    {%- if page.url contains 'kontak' -%}
-    ,{
-      "@type": "ContactPage",
-      "@id": "{{ page.url | absolute_url }}#contact",
-      "url": "{{ page.url | absolute_url }}",
-      "name": "Kontak KING403",
-      "description": "{{ page.description | strip_newlines | replace: '"', '\"' }}"
-    }
-    {%- endif -%}
-    {%- if page.url == '/' or page.url == '/index.html' or page.url contains 'faq' -%}
+    {%- if is_home or page_base == 'faq' -%}
     ,{
       "@type": "FAQPage",
-      "@id": "{{ page.url | absolute_url }}#faq",
+      "@id": "{{ page_url }}#faq",
       "mainEntity": [
-        {%- if page.url == '/' or page.url == '/index.html' -%}
+        {%- if is_home -%}
           {%- assign faq_schema_items = site.data.faq | where: "featured", true -%}
-          {%- for item in faq_schema_items limit: 6 -%}
-            {%- unless forloop.first -%},{%- endunless -%}
-            {
-              "@type": "Question",
-              "name": {{ item.question | jsonify }},
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": {{ item.answer | jsonify }}
-              }
-            }
-          {%- endfor -%}
         {%- else -%}
-          {%- for item in site.data.faq -%}
-            {%- unless forloop.first -%},{%- endunless -%}
-            {
-              "@type": "Question",
-              "name": {{ item.question | jsonify }},
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": {{ item.answer | jsonify }}
-              }
-            }
-          {%- endfor -%}
+          {%- assign faq_schema_items = site.data.faq -%}
         {%- endif -%}
+        {%- for item in faq_schema_items -%}
+          {%- unless forloop.first -%},{%- endunless -%}
+          {
+            "@type": "Question",
+            "name": {{ item.question | jsonify }},
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": {{ item.answer | jsonify }}
+            }
+          }
+        {%- endfor -%}
+      ]
+    }
+    {%- endif -%}
+    {%- if page_base == 'profil-digital' -%}
+    ,{
+      "@type": "ItemList",
+      "@id": "{{ page_url }}#digital-links",
+      "name": "Jejak Digital Resmi KING403",
+      "itemListElement": [
+        {%- for item in site.data.digital_links -%}
+          {%- unless forloop.first -%},{%- endunless -%}
+          {
+            "@type": "ListItem",
+            "position": {{ forloop.index }},
+            "item": {
+              "@type": "WebSite",
+              "name": {{ item.name | jsonify }},
+              "url": {{ item.url | jsonify }},
+              "description": {{ item.description | jsonify }}
+            }
+          }
+        {%- endfor -%}
       ]
     }
     {%- endif -%}

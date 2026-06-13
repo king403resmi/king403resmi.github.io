@@ -2,6 +2,9 @@
 layout: default
 ---
 <div class="k403-page{% if page.page_bare %} k403-page--bare{% endif %}">
+{%- unless page.page_bare -%}
+  {%- include k403-breadcrumb.html -%}
+{%- endunless -%}
 {%- if page.page_title -%}
   <section class="k403-hero k403-hero--page">
     <h1 class="k403-hero__title">{{ page.page_title | escape }}</h1>
