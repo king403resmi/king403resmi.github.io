@@ -55,7 +55,6 @@ minima:
     github: King403resmi
     email: hello@king403.com
 
-# Domain & jejak digital resmi
 official:
   site: "https://king403.it.com"
   developer: "https://apidevel.org"
@@ -73,6 +72,10 @@ official:
 
 markdown: kramdown
 permalink: pretty
+
+include:
+  - sitemap.xml
+  - robots.txt
 
 exclude:
   - Gemfile
