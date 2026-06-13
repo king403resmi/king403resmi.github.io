@@ -20,6 +20,7 @@ image: /assets/images/og-image.svg
     <ul class="k403-pills">
       <li><a class="k403-pill k403-pill--gold" href="https://king403.it.com/">Situs Resmi</a></li>
       <li><a class="k403-pill k403-pill--outline" href="https://apidevel.org/">Developer</a></li>
+      <li><a class="k403-pill k403-pill--outline" href="https://king403.nekoweb.org/">Portal Brand</a></li>
       <li><a class="k403-pill k403-pill--outline" href="{{ '/kontak/' | relative_url }}">Konsultasi Gratis</a></li>
       <li><a class="k403-pill k403-pill--outline" href="{{ '/layanan/' | relative_url }}">Layanan</a></li>
     </ul>
@@ -178,12 +179,12 @@ image: /assets/images/og-image.svg
 
 <section class="k403-seo-block">
   <h2 class="k403-seo-block__title">KING403 — Brand Resmi Indonesia</h2>
-  <p><strong>KING403</strong> (<em>king403</em>, <em>KING403 resmi</em>) — perusahaan teknologi digital sejak 2020. Ekosistem: <a href="https://king403.it.com/">king403.it.com</a> · <a href="https://apidevel.org/">apidevel.org</a> · <a href="{{ '/profil-digital/' | relative_url }}">Profil Digital</a> · <a href="https://heylink.me/king403.it.com/">HeyLink</a> · <a href="https://www.youtube.com/@seosementara5">YouTube</a> · <a href="https://github.com/King403resmi">GitHub</a></p>
+  <p><strong>KING403</strong> (<em>king403</em>, <em>KING403 resmi</em>) — perusahaan teknologi digital sejak 2020. Ekosistem: <a href="https://king403.it.com/">king403.it.com</a> · <a href="https://apidevel.org/">apidevel.org</a> · <a href="https://king403.nekoweb.org/">king403.nekoweb.org</a> · <a href="{{ '/profil-digital/' | relative_url }}">Profil Digital</a> · <a href="https://heylink.me/king403.it.com/">HeyLink</a> · <a href="https://www.youtube.com/@seosementara5">YouTube</a> · <a href="https://github.com/King403resmi">GitHub</a></p>
 </section>
 
 <footer class="k403-home-footer">
   <img class="k403-banner" src="/assets/images/team-banner.svg" alt="KING403 Team" width="640">
-  <p>© 2020–2026 KING403 · <a href="https://king403.it.com/">king403.it.com</a> · <a href="https://apidevel.org/">apidevel.org</a></p>
+  <p>© 2020–2026 KING403 · <a href="https://king403.it.com/">king403.it.com</a> · <a href="https://apidevel.org/">apidevel.org</a> · <a href="https://king403.nekoweb.org/">nekoweb</a></p>
 </footer>
 
 </div>

@@ -17,6 +17,7 @@ Pusat **tautan resmi** brand KING403 — situs utama, platform developer, GitHub
 <p align="center">
   <a href="https://king403.it.com/"><strong>Situs Resmi</strong></a> &nbsp;·&nbsp;
   <a href="https://apidevel.org/"><strong>Developer</strong></a> &nbsp;·&nbsp;
+  <a href="https://king403.nekoweb.org/"><strong>Portal Brand</strong></a> &nbsp;·&nbsp;
   <a href="https://heylink.me/king403.it.com/"><strong>HeyLink</strong></a> &nbsp;·&nbsp;
   <a href="https://heycard.link/king403"><strong>HeyCard</strong></a> &nbsp;·&nbsp;
   <a href="https://www.youtube.com/@seosementara5"><strong>YouTube</strong></a> &nbsp;·&nbsp;

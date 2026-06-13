@@ -1,4 +1,10 @@
-<header class="site-header k403-header" role="banner">
+<div class="k403-header-wrap">
+  <div class="k403-topbar">
+    <div class="wrapper k403-topbar__inner">
+      <a class="k403-topbar__cta" href="{{ site.official.join_support }}" rel="noopener noreferrer" target="_blank">Bergabung Sekarang</a>
+    </div>
+  </div>
+  <header class="site-header k403-header" role="banner">
   <div class="wrapper k403-header__inner">
     <a class="site-title k403-header__brand" rel="author" href="{{ "/" | relative_url }}">
       <span class="k403-header__mark" aria-hidden="true">K</span>
@@ -26,8 +32,10 @@
             <a class="page-link{% if page.url == my_page.url %} k403-nav__link--active{% endif %}" href="{{ my_page.url | relative_url }}">{{ nav_label | escape }}</a>
           {%- endif -%}
         {%- endfor -%}
+        <a class="page-link k403-nav__cta-mobile" href="{{ site.official.join_support }}" rel="noopener noreferrer" target="_blank">Bergabung Sekarang</a>
       </div>
     </nav>
     {%- endif -%}
   </div>
-</header>
+  </header>
+</div>
