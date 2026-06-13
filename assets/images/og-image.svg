@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="KING403  Perusahaan Teknologi Digital Indonesia">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#171717"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e8c547"/>
+      <stop offset="100%" stop-color="#c9a227"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e8c547" stroke-width="0.5" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect x="80" y="80" width="120" height="120" rx="24" fill="url(#gold)" opacity="0.12"/>
+  <rect x="80" y="80" width="120" height="120" rx="24" fill="none" stroke="url(#gold)" stroke-width="3" opacity="0.5"/>
+  <text x="140" y="162" text-anchor="middle" fill="url(#gold)" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="72" font-weight="800">K</text>
+  <text x="240" y="175" fill="#e8c547" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="96" font-weight="800" letter-spacing="4">KING403</text>
+  <text x="240" y="240" fill="#9ca3af" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="32">Perusahaan Teknologi Digital Indonesia</text>
+  <text x="240" y="520" fill="#6b7280" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="24">king403.it.com · apidevel.org · Est. 2020</text>
+  <line x1="240" y1="280" x2="520" y2="280" stroke="url(#gold)" stroke-width="3" opacity="0.6"/>
+</svg>

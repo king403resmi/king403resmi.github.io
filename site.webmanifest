@@ -1,0 +1,23 @@
+{
+  "name": "KING403",
+  "short_name": "KING403",
+  "description": "Perusahaan teknologi digital Indonesia — king403.it.com",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#e8c547",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "/assets/images/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

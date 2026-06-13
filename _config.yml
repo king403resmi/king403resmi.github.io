@@ -24,9 +24,9 @@ seo:
     KING403, king403, king 403, KING403 resmi, KING403 official, KING403 Indonesia,
     perusahaan KING403, brand KING403, situs KING403, KING403 teknologi digital,
     king403.it.com, KING403 portal, KING403 perusahaan, KING403 company
-  image: "/assets/images/team-banner.svg"
+  image: "/assets/images/og-image.png"
 
-logo: "/assets/images/team-banner.svg"
+logo: "/assets/images/logo.png"
 
 twitter:
   username: King403resmi
@@ -89,4 +89,4 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-      image: "/assets/images/team-banner.svg"
+      image: "/assets/images/og-image.png"

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="200" viewBox="0 0 640 200" role="img" aria-label="KING403 Logo">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e8c547"/>
+      <stop offset="100%" stop-color="#c9a227"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="200" fill="#0a0a0a" rx="16"/>
+  <rect x="24" y="24" width="152" height="152" rx="28" fill="url(#gold)" opacity="0.14"/>
+  <rect x="24" y="24" width="152" height="152" rx="28" fill="none" stroke="url(#gold)" stroke-width="3" opacity="0.55"/>
+  <text x="100" y="118" text-anchor="middle" fill="url(#gold)" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="88" font-weight="800">K</text>
+  <text x="210" y="98" fill="#e8c547" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="2">KING403</text>
+  <text x="210" y="138" fill="#9ca3af" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="18">Digital Technology · Brand · Operations</text>
+</svg>
