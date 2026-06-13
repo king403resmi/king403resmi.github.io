@@ -95,11 +95,6 @@ defaults:
       layout: "default"
       permalink: "/"
   - scope:
-      path: "sitemap.xml"
-    values:
-      layout: null
-      sitemap: false
-  - scope:
       path: "404.html"
     values:
       layout: "k403-page"
