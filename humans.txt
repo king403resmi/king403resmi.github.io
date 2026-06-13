@@ -1,0 +1,16 @@
+/* TEAM */
+Brand:        KING403
+Established:  2020
+Site:         https://king403.it.com
+Developer:    https://apidevel.org
+Portal:       https://king403resmi.github.io
+GitHub:       https://github.com/King403resmi
+
+/* CONTACT */
+Email:        hello@king403.com
+Careers:      careers@king403.com
+Partnership:  partnership@king403.com
+
+/* THANKS */
+Engineering:  KING403 Platform Team
+Hosting:      GitHub Pages

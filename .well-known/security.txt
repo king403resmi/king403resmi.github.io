@@ -1,0 +1,7 @@
+Contact: mailto:hello@king403.com
+Preferred-Languages: id, en
+Canonical: https://king403.it.com/
+Policy: https://king403resmi.github.io/kebijakan-privasi.html
+
+# KING403 — laporan keamanan
+# Kirim temuan ke hello@king403.com dengan subjek [Security]

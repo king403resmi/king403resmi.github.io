@@ -1,4 +1,30 @@
+# robots.txt — Portal Korporat KING403
+# https://king403resmi.github.io
+
 User-agent: *
 Allow: /
+Disallow: /vendor/
+Disallow: /Gemfile
+Disallow: /Gemfile.lock
 
+# Google & Bing — full crawl untuk SEO brand KING403
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Blok scraper SEO agresif (hemat bandwidth hosting)
+User-agent: SemrushBot
+User-agent: AhrefsBot
+User-agent: MJ12bot
+User-agent: DotBot
+User-agent: BLEXBot
+Disallow: /
+
+# Sitemap & referensi brand resmi
 Sitemap: https://king403resmi.github.io/sitemap.xml
+
+# Situs resmi brand (referensi, bukan sitemap terpisah)
+# https://king403.it.com
+# https://apidevel.org

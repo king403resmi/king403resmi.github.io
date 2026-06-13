@@ -17,7 +17,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-github-metadata
-  - jekyll-sitemap
 
 seo:
   og_title: "KING403 — Situs Resmi Brand & Perusahaan Teknologi Digital Indonesia"
