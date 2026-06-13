@@ -50,7 +50,15 @@ Anda dapat meminta akses, koreksi, atau penghapusan data dengan email ke [hello@
 
 ---
 
-## 6. Perubahan Kebijakan
+## 6. Retensi Data
+
+Data kontak disimpan maksimal **3 tahun** setelah interaksi terakhir, kecuali diwajibkan lebih lama oleh kontrak atau hukum.
+
+## 7. Cookie
+
+Website ini dapat menggunakan cookie analitik dasar. Anda dapat menonaktifkan cookie via pengaturan browser.
+
+## 8. Perubahan Kebijakan
 
 Kebijakan dapat diperbarui. Versi terbaru dipublikasikan di halaman ini.
 

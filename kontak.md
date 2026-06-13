@@ -5,57 +5,89 @@ title: Kontak
 
 # Hubungi KING403
 
-Kami siap mendengarkan kebutuhan proyek, kemitraan, atau pertanyaan umum seputar layanan perusahaan.
-
 <p align="center">
-  <img src="/assets/images/logo.png" alt="KING403" width="160">
+  <img src="/assets/images/logo.png" alt="KING403" width="180">
 </p>
 
----
-
-## Informasi Kontak
-
-| Channel | Detail |
-|---------|--------|
-| **Email umum** | [hello@king403.com](mailto:hello@king403.com) |
-| **Sales & kemitraan** | [partnership@king403.com](mailto:partnership@king403.com) |
-| **Karir** | [careers@king403.com](mailto:careers@king403.com) |
-| **Dukungan teknis** | [support@king403.com](mailto:support@king403.com) |
+Kami siap mendengarkan kebutuhan proyek, kemitraan, karir, atau media inquiry.
 
 ---
 
-## Jam Operasional
+## Kanal Kontak
 
-| Hari | Waktu |
-|------|--------|
-| Senin – Jumat | 09:00 – 18:00 WIB |
-| Sabtu | 09:00 – 14:00 WIB |
-| Minggu & libur | Email — respons Senin |
-
-Tim support operasional klien tersedia **24/7** sesuai kontrak SLA masing-masing proyek.
+| Tujuan | Email | Response time |
+|--------|-------|---------------|
+| **Umum & sales** | [hello@king403.com](mailto:hello@king403.com) | 1–2 hari kerja |
+| **Kemitraan B2B** | [partnership@king403.com](mailto:partnership@king403.com) | 1–2 hari kerja |
+| **Karir & HR** | [careers@king403.com](mailto:careers@king403.com) | 3–5 hari kerja |
+| **Dukungan teknis klien** | [support@king403.com](mailto:support@king403.com) | Per SLA kontrak |
+| **Media & press** | [press@king403.com](mailto:press@king403.com) | 2–3 hari kerja |
+| **Privasi & legal** | [legal@king403.com](mailto:legal@king403.com) | 3–5 hari kerja |
 
 ---
 
-## Alamat Kantor
+## Jam Operasional Kantor
+
+| Hari | Waktu (WIB) |
+|------|-------------|
+| Senin – Jumat | 09:00 – 18:00 |
+| Sabtu | 09:00 – 14:00 |
+| Minggu & libur nasional | Email only — respons Senin |
+
+**Support enterprise 24/7** tersedia untuk klien dengan kontrak SLA tier Business/Enterprise.
+
+---
+
+## Alamat
 
 **KING403**  
 Jakarta, Indonesia  
 
-*Kunjungan kantor by appointment — hubungi email umum untuk jadwalkan meeting.*
+Kunjungan kantor **by appointment only** — email [hello@king403.com](mailto:hello@king403.com?subject=Appointment%20Request) untuk jadwalkan meeting.
 
 ---
 
-## Formulir Singkat
+## Formulir Konsultasi Proyek
 
-Untuk konsultasi proyek, kirim email dengan informasi:
+Kirim email ke **hello@king403.com** dengan informasi berikut:
 
-1. Nama perusahaan / brand
-2. Jenis layanan yang dibutuhkan
-3. Perkiraan timeline
-4. Budget range (opsional)
+```
+1. Nama & perusahaan
+2. Industri / bidang bisnis
+3. Jenis layanan yang dibutuhkan (platform / brand / devops / support / security)
+4. Deskripsi singkat kebutuhan (2–3 paragraf)
+5. Perkiraan timeline
+6. Budget range (opsional)
+7. Nomor telepon / preferensi meeting (Zoom/Google Meet)
+```
 
-Tim kami akan merespons dalam **1–2 hari kerja**.
+Tim kami akan merespons dengan jadwal **discovery call gratis** (30–60 menit).
 
 ---
 
-[← Karir](karir.html) · [Kebijakan Privasi →](kebijakan-privasi.html)
+## Peta Lokasi (Representative Office)
+
+*Hub Jakarta — detail alamat lengkap diberikan setelah appointment confirmed.*
+
+---
+
+## Media Sosial & Profesional
+
+| Platform | Handle |
+|----------|--------|
+| LinkedIn | KING403 (company page) |
+| GitHub | [King403resmi](https://github.com/King403resmi) |
+
+---
+
+## FAQ Cepat
+
+- **Apakah konsultasi awal gratis?** → Ya.  
+- **Apakah melayani klien luar Indonesia?** → Ya, remote engagement.  
+- **Bahasa komunikasi?** → Indonesia & English.
+
+[FAQ lengkap →](faq.html)
+
+---
+
+[← FAQ](faq.html) · [Beranda →](index.html)

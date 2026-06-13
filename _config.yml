@@ -1,15 +1,22 @@
 title: KING403
-description: Perusahaan teknologi digital dan pengembangan ekosistem brand Indonesia
+description: Perusahaan teknologi digital, pengembangan platform, dan konsultasi brand Indonesia sejak 2020
 theme: jekyll-theme-minima
+url: "https://king403resmi.github.io"
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
 
 header_pages:
   - tentang.md
   - layanan.md
+  - proyek.md
+  - teknologi.md
+  - berita.md
+  - mitra.md
   - tim.md
   - karir.md
+  - faq.md
   - kontak.md
 
 author:
@@ -23,3 +30,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - deploy-github.ps1

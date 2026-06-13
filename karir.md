@@ -5,64 +5,148 @@ title: Karir
 
 # Karir di KING403
 
-Bangun karier di perusahaan teknologi digital yang valorasi talenta, inovasi, dan dampak nyata.
+Bangun karier di perusahaan yang valorasi **craftsmanship**, **growth**, dan **work-life balance**.
+
+<p align="center">
+  <img src="/assets/images/logo.png" alt="KING403 Careers" width="200">
+</p>
 
 ---
 
-## Mengapa Kerja di KING403?
+## Benefit & Fasilitas
 
-- Proyek variatif — platform, brand, infrastruktur
-- Lingkungan belajar — mentoring & sertifikasi
-- Gaji kompetitif & benefit kesehatan
-- Fleksibilitas lokasi kerja (hybrid/remote)
+| Benefit | Detail |
+|---------|--------|
+| 💰 **Gaji kompetitif** | Review 2× per tahun |
+| 🏥 **Asuransi kesehatan** | Karyawan + 1 dependent |
+| 🏠 **Remote/hybrid** | Flexible location |
+| 📚 **Learning budget** | Sertifikasi & kursus |
+| 🎉 **Team gathering** | Quarterly offsite |
+| 💻 **Equipment allowance** | Laptop & monitor |
+| 🌴 **Cuti tahunan** | 14 hari + cuti bersama |
+| 👶 **Parental leave** | Sesuai regulasi + top-up |
 
 ---
 
 ## Posisi Terbuka
 
-### Software Engineer (Full-stack)
+### Senior Backend Engineer (Go/Node)
+**Lokasi:** Remote · **Tipe:** Full-time
 
-**Lokasi:** Remote / Jakarta  
-**Pengalaman:** 2+ tahun
+**Tanggung jawab:**
+- Design & implement REST/GraphQL API
+- Database schema design & optimization
+- Code review & mentoring junior
+- Participate architecture decision
 
-- Pengembangan API dan aplikasi web
-- Familiar dengan Git, CI/CD, dan testing
-- Bonus: pengalaman cloud (AWS/GCP/Azure)
+**Kualifikasi:**
+- 4+ tahun backend development
+- Strong PostgreSQL & Redis
+- Experience microservices or modular monolith
+- Git workflow & CI/CD familiar
+
+**Nice to have:** Go, event-driven architecture, multi-tenant systems
+
+---
+
+### Frontend Engineer (React/Next.js)
+**Lokasi:** Remote · **Tipe:** Full-time
+
+**Tanggung jawab:**
+- Build responsive web applications
+- Implement design system components
+- Performance optimization (Core Web Vitals)
+- Collaborate with UX designer
+
+**Kualifikasi:**
+- 3+ tahun React ecosystem
+- TypeScript proficiency
+- Testing (Jest, Playwright basics)
 
 ---
 
 ### UI/UX Designer
+**Lokasi:** Remote · **Tipe:** Full-time
 
-**Lokasi:** Remote  
-**Pengalaman:** 1+ tahun
+**Tanggung jawab:**
+- User research & journey mapping
+- Wireframe → high-fidelity mockup
+- Maintain & extend design system
+- Usability testing facilitation
 
-- Desain interface web & mobile
-- Portfolio Figma/Adobe XD
-- Pemahaman design system
+**Kualifikasi:**
+- 2+ tahun product design
+- Figma expert
+- Portfolio dengan case study measurable impact
 
 ---
 
-### Customer Support Specialist
+### DevOps Engineer
+**Lokasi:** Remote · **Tipe:** Full-time
 
-**Lokasi:** Remote  
-**Shift:** Rotasi (termasuk malam)
+**Tanggung jawab:**
+- CI/CD pipeline maintenance
+- Cloud infrastructure (AWS/GCP)
+- Monitoring, alerting, incident response
+- IaC with Terraform
 
-- Bahasa Indonesia & Inggris aktif
-- Pengalaman helpdesk / CRM
-- Sabar, detail-oriented, problem solver
+**Kualifikasi:**
+- 3+ tahun DevOps/SRE
+- Docker & container orchestration
+- Scripting (Bash, Python, or Go)
+
+---
+
+### Customer Support Specialist (L1)
+**Lokasi:** Remote · **Shift:** Rotasi incl. malam
+
+**Tanggung jawab:**
+- Handle ticket & live chat klien B2B
+- Follow runbook & escalate properly
+- Update knowledge base articles
+- CSAT target ≥ 90%
+
+**Kualifikasi:**
+- 1+ tahun customer support
+- Fluent Indonesian & English
+- Patient, detail-oriented, tech-curious
+
+---
+
+### Internship — Software Engineering (Batch 2026)
+**Lokasi:** Remote · **Durasi:** 3 bulan · **Slot:** 8
+
+Program magang dengan mentorship 1-on-1 dari senior engineer. Project nyata (internal tool atau module klien supervised).
+
+**Kualifikasi:** Mahasiswa TI semester ≥5, familiar Git & satu bahasa programming.
+
+---
+
+## Proses Rekrutmen
+
+```
+Apply → HR Screen (30 min) → Technical/Portfolio Review → Interview (1-2 rounds) → Offer
+```
+
+Timeline typical: **2–3 minggu** dari apply to offer.
 
 ---
 
 ## Cara Melamar
 
-Kirim CV dan portfolio ke:
+📧 **careers@king403.com**
 
-**Email:** [careers@king403.com](mailto:careers@king403.com)
+**Subject format:** `[Posisi] — Nama Lengkap`
 
-Subjek email: `[Posisi] — Nama Lengkap`
-
-Kami akan menghubungi kandidat terpilih dalam 5–10 hari kerja.
+**Lampiran:**
+- CV (PDF, max 2MB)
+- Portfolio / GitHub (engineer & designer)
+- Expected salary (optional)
 
 ---
 
-[← Tim](tim.html) · [Kontak →](kontak.html)
+## Spontaneous Application
+
+Tidak ada posisi yang cocok? Kirim CV anyway — kami simpan di talent pool untuk kebutuhan mendatang.
+
+[← Tim](tim.html) · [FAQ →](faq.html) · [Kontak →](kontak.html)

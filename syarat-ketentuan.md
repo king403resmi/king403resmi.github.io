@@ -35,13 +35,17 @@ Informasi di website bersifat umum. KING403 tidak bertanggung jawab atas kerugia
 
 ---
 
-## 5. Hukum yang Berlaku
+## 5. Link Pihak Ketiga
+
+Website dapat memuat link ke situs eksternal. KING403 tidak bertanggung jawab atas konten atau kebijakan privasi situs tersebut.
+
+## 6. Hukum yang Berlaku
 
 Syarat ini tunduk pada hukum Republik Indonesia.
 
 ---
 
-## 6. Kontak
+## 7. Kontak
 
 Pertanyaan hukum: [hello@king403.com](mailto:hello@king403.com)
 

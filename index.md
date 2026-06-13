@@ -4,51 +4,151 @@ title: Beranda
 ---
 
 <p align="center">
-  <img src="/assets/images/logo.png" alt="Logo KING403" width="280">
+  <img src="/assets/images/logo.png" alt="Logo KING403" width="300">
 </p>
 
-# KING403 — Inovasi Digital untuk Masa Depan
+# KING403 — Mitra Transformasi Digital Terpercaya
 
-**KING403** adalah perusahaan teknologi digital yang berfokus pada pengembangan platform, konsultasi brand, dan solusi infrastruktur digital untuk bisnis di Indonesia.
+**KING403** adalah perusahaan teknologi digital Indonesia yang menghadirkan solusi platform, konsultasi brand, infrastruktur cloud, dan operasional layanan pelanggan untuk bisnis yang ingin tumbuh di era digital.
 
----
+Sejak **2020**, kami telah mendampingi puluhan proyek — dari startup hingga brand established — dengan pendekatan **engineering-first**, **keamanan by design**, dan **kemitraan jangka panjang**.
 
-## Apa yang Kami Lakukan
-
-Kami membantu mitra dan klien membangun presensi digital yang kuat — dari strategi brand, pengembangan sistem, hingga operasional layanan pelanggan yang andal.
-
-| Pilar | Fokus |
-|-------|--------|
-| **Platform** | Pengembangan sistem web dan aplikasi skala menengah–besar |
-| **Brand** | Konsultasi identitas dan ekosistem digital brand |
-| **Operasi** | Dukungan teknis, monitoring, dan layanan pelanggan 24/7 |
-
-[Pelajari layanan kami →](layanan.html)
+<p align="center">
+  <a href="kontak.html"><strong>📩 Konsultasi Gratis</strong></a> &nbsp;·&nbsp;
+  <a href="layanan.html"><strong>🔧 Lihat Layanan</strong></a> &nbsp;·&nbsp;
+  <a href="proyek.html"><strong>📁 Portofolio</strong></a>
+</p>
 
 ---
 
-## Mengapa KING403?
+## Angka Kami
 
-- **Pengalaman industri** — tim multidisiplin dengan rekam jejak proyek digital
-- **Skalabilitas** — arsitektur dirancang untuk pertumbuhan traffic dan pengguna
-- **Keamanan** — standar proteksi data dan isolasi sistem
-- **Komitmen jangka panjang** — partnership, bukan sekadar vendor
+| Metrik | Nilai |
+|--------|-------|
+| Tahun beroperasi | 5+ tahun |
+| Proyek diselesaikan | 80+ |
+| Klien aktif | 35+ |
+| Tim profesional | 40+ orang |
+| Uptime rata-rata platform klien | 99,9% |
+| SLA response support | &lt; 15 menit (tier enterprise) |
 
 ---
 
-## Profil Singkat
+## Pilar Layanan
 
-| | |
-|---|---|
-| **Nama** | KING403 |
-| **Bidang** | Teknologi Digital & Brand Development |
-| **Wilayah** | Indonesia |
-| **Website** | king403resmi.github.io |
+### 🖥️ Platform & Engineering
+Pengembangan website, aplikasi mobile, dashboard admin, API, dan integrasi sistem — dengan arsitektur yang siap scale.
 
-[Profil lengkap perusahaan →](tentang.html) · [Hubungi kami →](kontak.html)
+### 🎨 Brand & Creative
+Strategi identitas digital, pedoman visual, content strategy, dan kampanye brand yang konsisten.
+
+### ☁️ Infrastruktur & DevOps
+Cloud setup, CI/CD, monitoring 24/7, backup, disaster recovery, dan optimasi biaya infrastruktur.
+
+### 💬 Operasi & Customer Success
+Helpdesk multi-channel, onboarding pengguna, pelaporan KPI, dan training tim internal klien.
+
+### 🔒 Keamanan & Compliance
+Audit keamanan, enkripsi data, access control, dan kebijakan privasi sesuai best practice industri.
+
+[Detail setiap layanan →](layanan.html)
+
+---
+
+## Mengapa Memilih KING403?
+
+**1. End-to-end partner**  
+Bukan hanya vendor kode — kami ikut dari discovery, development, launch, hingga maintenance.
+
+**2. Arsitektur modern & scalable**  
+Sistem dirancang menahan lonjakan traffic tanpa rewrite total saat bisnis tumbuh.
+
+**3. Transparansi proyek**  
+Sprint review rutin, dokumentasi teknis, dan akses ke tracking progress real-time.
+
+**4. Tim lokal, standar global**  
+Engineer dan designer Indonesia dengan workflow dan quality bar setara tim internasional.
+
+**5. Support yang responsif**  
+Tim operasional standby — eskalasi jelas, SLA terukur, komunikasi bahasa Indonesia & Inggris.
+
+---
+
+## Industri yang Kami Layani
+
+| Sektor | Contoh kebutuhan |
+|--------|------------------|
+| **Fintech & payment** | Gateway, dashboard merchant, compliance |
+| **E-commerce & retail** | Catalog, checkout, integrasi logistik |
+| **Media & entertainment** | Platform konten, streaming, community |
+| **Edutech** | LMS, enrollment, sertifikasi digital |
+| **Enterprise & B2B** | Portal internal, CRM, workflow automation |
+| **Brand & lifestyle** | Website korporat, campaign landing, analytics |
+
+---
+
+## Proses Kerja Singkat
+
+```
+Discovery → Proposal & Scope → Design → Development → QA → Launch → Support & Iterate
+```
+
+Rata-rata timeline MVP platform: **8–12 minggu** (tergantung kompleksitas).  
+Proyek enterprise multi-modul: **3–6 bulan** dengan delivery bertahap.
+
+[Metodologi lengkap →](teknologi.html)
+
+---
+
+## Portofolio Terpilih
+
+| Proyek | Industri | Hasil |
+|--------|----------|-------|
+| **Portal Merchant Nusantara** | Fintech | 3× peningkatan onboarding merchant |
+| **Dashboard Analytics Pro** | SaaS B2B | Real-time reporting 50+ metrik |
+| **Platform Edu Digital** | Edutech | 12.000+ pengguna aktif bulanan |
+| **Rebrand Ekosistem Retail** | Retail | Konsistensi brand di 8 touchpoint |
+
+[Lihat semua studi kasus →](proyek.html)
+
+---
+
+## Apa Kata Klien
+
+> *"KING403 tidak hanya deliver kode — mereka paham bisnis kami. Launch platform berjalan lancar tanpa downtime."*  
+> — **Director of Operations**, klien fintech Jakarta
+
+> *"Tim support responsif 24 jam. Setiap insiden ditangani dengan runbook jelas dan follow-up post-mortem."*  
+> — **Head of Product**, klien media digital
+
+> *"Migrasi cloud selesai 2 minggu lebih cepat dari estimasi awal. Biaya infra turun 30%."*  
+> — **CTO**, klien e-commerce
+
+[Testimoni & mitra →](mitra.html)
+
+---
+
+## Berita & Insight Terbaru
+
+| Tanggal | Judul |
+|---------|-------|
+| Jun 2026 | [KING403 Perluas Divisi Cloud & Security](berita.html#perluas-divisi-cloud) |
+| Mei 2026 | [Best Practice Arsitektur Multi-Tenant 2026](berita.html#best-practice-multi-tenant) |
+| Apr 2026 | [Partnership dengan Provider CDN Regional](berita.html#partnership-cdn) |
+
+[Semua berita →](berita.html)
+
+---
+
+## Siap Memulai Proyek?
+
+Diskusikan kebutuhan platform, timeline, dan budget range dengan tim kami. **Konsultasi awal gratis** — tanpa komitmen.
+
+📧 [hello@king403.com](mailto:hello@king403.com) · 📋 [Formulir kontak →](kontak.html)
 
 ---
 
 <p align="center">
-  <sub>© KING403 · Seluruh hak cipta dilindungi</sub>
+  <img src="/assets/images/team-banner.svg" alt="KING403 Team" width="640"><br>
+  <sub>© 2020–2026 KING403 · Teknologi Digital · Brand · Operations</sub>
 </p>
