@@ -1,0 +1,131 @@
+- id: fintech-jakarta-01
+  quote: "KING403 tidak hanya deliver kode — mereka paham bisnis kami. Launch platform berjalan lancar tanpa downtime."
+  name: "Budi Santoso"
+  role: "Director of Operations"
+  company: "Klien Fintech"
+  location: "Jakarta"
+  sector: "Fintech"
+  rating: 5
+  project: "Portal merchant & payment gateway"
+  featured: true
+
+- id: media-digital-01
+  quote: "Tim support responsif 24 jam. Setiap insiden ditangani dengan runbook jelas dan follow-up post-mortem."
+  name: "Rina Wijaya"
+  role: "Head of Product"
+  company: "Klien Media Digital"
+  location: "Jakarta"
+  sector: "Media"
+  rating: 5
+  project: "Platform konten & streaming"
+  featured: true
+
+- id: ecommerce-01
+  quote: "Migrasi cloud selesai 2 minggu lebih cepat dari estimasi awal. Biaya infra turun 30%."
+  name: "Agus Pratama"
+  role: "CTO"
+  company: "Klien E-commerce"
+  location: "Surabaya"
+  sector: "E-commerce"
+  rating: 5
+  project: "Cloud migration & DevOps"
+  featured: true
+
+- id: fintech-jakarta-02
+  quote: "Tim KING403 deliver tepat waktu meski scope berkembang di tengah sprint. Dokumentasi API-nya jadi referensi tim internal kami sampai sekarang."
+  name: "Dimas Hartono"
+  role: "VP Engineering"
+  company: "Klien Fintech"
+  location: "Jakarta"
+  sector: "Fintech"
+  rating: 5
+  project: "API platform & integrasi"
+  featured: false
+
+- id: edutech-01
+  quote: "Platform LMS custom kami jauh lebih fit dibanding SaaS generic. Student satisfaction naik signifikan."
+  name: "Siti Rahmawati"
+  role: "Director of Digital Learning"
+  company: "Klien Edutech"
+  location: "Yogyakarta"
+  sector: "Edutech"
+  rating: 5
+  project: "Custom LMS platform"
+  featured: false
+
+- id: retail-01
+  quote: "Rebrand + website rebuild dalam satu engagement. Tim creative dan dev sync-nya excellent."
+  name: "Felix Gunawan"
+  role: "Marketing Director"
+  company: "Klien Retail"
+  location: "Bandung"
+  sector: "Retail"
+  rating: 5
+  project: "Rebrand & corporate website"
+  featured: false
+
+- id: saas-01
+  quote: "Dashboard analytics real-time yang mereka bangun jadi diferensiator produk kami. Klien B2B sangat appreciate."
+  name: "Maya Kusuma"
+  role: "CEO"
+  company: "Klien SaaS B2B"
+  location: "Jakarta"
+  sector: "SaaS"
+  rating: 5
+  project: "Analytics dashboard"
+  featured: false
+
+- id: enterprise-01
+  quote: "Portal internal 500+ karyawan go-live tanpa training massal yang rumit. UX-nya intuitif dari hari pertama."
+  name: "Hendra Wibowo"
+  role: "IT Director"
+  company: "Klien Enterprise"
+  location: "Jakarta"
+  sector: "Enterprise"
+  rating: 5
+  project: "Employee portal"
+  featured: false
+
+- id: startup-01
+  quote: "Sebagai startup, kami butuh partner yang fleksibel. KING403 bantu MVP kami launch dalam 10 minggu dengan budget yang masuk akal."
+  name: "Kevin Tan"
+  role: "Co-founder"
+  company: "Klien Startup"
+  location: "Bali"
+  sector: "Startup"
+  rating: 5
+  project: "MVP platform launch"
+  featured: false
+
+- id: ecommerce-02
+  quote: "Migrasi cloud tanpa drama. Post-migration support 2 minggu sangat membantu — zero critical incident."
+  name: "Lestari Putri"
+  role: "CTO"
+  company: "Klien E-commerce"
+  location: "Surabaya"
+  sector: "E-commerce"
+  rating: 5
+  project: "Infrastructure migration"
+  featured: false
+
+- id: fintech-compliance
+  quote: "Audit keamanan dan hardening yang mereka lakukan membantu kami lolos review compliance lebih cepat."
+  name: "Arif Nugroho"
+  role: "Head of Compliance"
+  company: "Klien Payment"
+  location: "Jakarta"
+  sector: "Fintech"
+  rating: 5
+  project: "Security audit & compliance"
+  featured: false
+
+- id: support-ops
+  quote: "Outsource support ke KING403 mengurangi backlog tiket kami 60%. SLA mereka konsisten terpenuhi."
+  name: "Dewi Anggraini"
+  role: "Customer Success Lead"
+  company: "Klien SaaS"
+  location: "Remote"
+  sector: "SaaS"
+  rating: 5
+  project: "Customer support operations"
+  featured: false

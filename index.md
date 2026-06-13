@@ -151,16 +151,11 @@ Proyek enterprise multi-modul: **3–6 bulan** dengan delivery bertahap.
 
 ## Apa Kata Klien
 
-> *"KING403 tidak hanya deliver kode — mereka paham bisnis kami. Launch platform berjalan lancar tanpa downtime."*  
-> — **Director of Operations**, klien fintech Jakarta
+<p align="center">Dipercaya oleh klien di fintech, e-commerce, edutech, retail, SaaS, dan enterprise.</p>
 
-> *"Tim support responsif 24 jam. Setiap insiden ditangani dengan runbook jelas dan follow-up post-mortem."*  
-> — **Head of Product**, klien media digital
+{% include k403-testimonials.html limit=3 featured=true %}
 
-> *"Migrasi cloud selesai 2 minggu lebih cepat dari estimasi awal. Biaya infra turun 30%."*  
-> — **CTO**, klien e-commerce
-
-[Testimoni & mitra →](mitra.html)
+<p class="k403-testimonial-cta"><a href="testimoni.html">Lihat semua testimoni KING403 →</a></p>
 
 ---
 

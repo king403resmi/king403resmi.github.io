@@ -51,6 +51,8 @@ Kami telah bekerja dengan organisasi di berbagai sektor:
 > *"Rebrand + website rebuild dalam satu engagement. Tim creative dan dev sync-nya excellent."*  
 > **Marketing Director**
 
+[Lihat semua testimoni →](testimoni.html)
+
 ---
 
 ## Mitra Teknologi
