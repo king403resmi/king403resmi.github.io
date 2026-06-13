@@ -71,12 +71,17 @@ Tim kami akan merespons dengan jadwal **discovery call gratis** (30–60 menit).
 
 ---
 
-## Media Sosial & Profesional
+## Media Sosial & GitHub
 
-| Platform | Handle |
-|----------|--------|
-| LinkedIn | KING403 (company page) |
-| GitHub | [King403resmi](https://github.com/King403resmi) |
+| Platform | URL |
+|----------|-----|
+| **GitHub Organization** | [github.com/King403resmi](https://github.com/King403resmi) |
+| **Repo website ini** | [github.com/king403resmi/king403resmi.github.io](https://github.com/king403resmi/king403resmi.github.io) |
+| **Issues / feedback web** | [GitHub Issues](https://github.com/king403resmi/king403resmi.github.io/issues) |
+| **Portal brand (org)** | [github.com/King403situs](https://github.com/King403situs) |
+| **LinkedIn** | [linkedin.com/company/king403](https://www.linkedin.com/company/king403) |
+
+[Profil digital & peta internal link →](profil-digital.html)
 
 ---
 

@@ -72,6 +72,9 @@ Transfer bank (IDR). Termin typical: 30% kickoff, 40% milestone, 30% pre-launch 
 ### Apakah KING403 hiring?
 Lihat posisi terbuka di [Karir](karir.html). Kami juga terima **spontaneous application** ke [careers@king403.com](mailto:careers@king403.com).
 
+### Di mana profil GitHub resmi KING403?
+Organisasi: [github.com/King403resmi](https://github.com/King403resmi) · Peta link: [Profil Digital](profil-digital.html)
+
 ### Apakah remote work available?
 Ya — sebagian besar role **remote/hybrid**. Occasional on-site untuk workshop klien atau team gathering.
 

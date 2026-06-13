@@ -140,6 +140,21 @@ Proyek enterprise multi-modul: **3–6 bulan** dengan delivery bertahap.
 
 ---
 
+## GitHub & Profil Digital
+
+KING403 hadir di GitHub sebagai organisasi resmi — website ini di-build dari repository open-source perusahaan.
+
+| Resource | Link |
+|----------|------|
+| **Organisasi GitHub** | [github.com/King403resmi](https://github.com/King403resmi) |
+| **Source website ini** | [king403resmi/king403resmi.github.io](https://github.com/king403resmi/king403resmi.github.io) |
+| **Portal brand** | [King403situs · GitHub Pages](https://github.com/King403situs) |
+| **Peta tautan lengkap** | [Profil Digital →](profil-digital.html) |
+
+🐙 **Follow** organisasi [**@King403resmi**](https://github.com/King403resmi) di GitHub untuk update repo & dokumentasi.
+
+---
+
 ## Siap Memulai Proyek?
 
 Diskusikan kebutuhan platform, timeline, dan budget range dengan tim kami. **Konsultasi awal gratis** — tanpa komitmen.
@@ -150,5 +165,5 @@ Diskusikan kebutuhan platform, timeline, dan budget range dengan tim kami. **Kon
 
 <p align="center">
   <img src="/assets/images/team-banner.svg" alt="KING403 Team" width="640"><br>
-  <sub>© 2020–2026 KING403 · Teknologi Digital · Brand · Operations</sub>
+  <sub>© 2020–2026 KING403 · <a href="https://github.com/King403resmi">GitHub</a> · <a href="profil-digital.html">Profil Digital</a></sub>
 </p>

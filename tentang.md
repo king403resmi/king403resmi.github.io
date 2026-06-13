@@ -110,4 +110,18 @@ Detail program: [halaman Mitra & CSR](mitra.html#csr)
 
 ---
 
+## Jejak Digital Resmi
+
+| Platform | URL |
+|----------|-----|
+| **Website perusahaan** | [king403resmi.github.io](https://king403resmi.github.io/) |
+| **GitHub Organization** | [github.com/King403resmi](https://github.com/King403resmi) |
+| **Repo website (source)** | [king403resmi.github.io](https://github.com/king403resmi/king403resmi.github.io) |
+| **Org portal brand** | [github.com/King403situs](https://github.com/King403situs) |
+| **LinkedIn** | [linkedin.com/company/king403](https://www.linkedin.com/company/king403) |
+
+[Peta tautan internal lengkap →](profil-digital.html)
+
+---
+
 [← Beranda](index.html) · [Layanan →](layanan.html) · [Tim →](tim.html)
