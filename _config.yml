@@ -1,0 +1,25 @@
+title: KING403
+description: Perusahaan teknologi digital dan pengembangan ekosistem brand Indonesia
+theme: jekyll-theme-minima
+
+plugins:
+  - jekyll-seo-tag
+
+header_pages:
+  - tentang.md
+  - layanan.md
+  - tim.md
+  - karir.md
+  - kontak.md
+
+author:
+  name: KING403
+  email: hello@king403.com
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
