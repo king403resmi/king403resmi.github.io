@@ -94,17 +94,17 @@
   answer: "Ya - sebagian besar role remote/hybrid. Occasional on-site untuk workshop klien atau team gathering."
   featured: false
 
-  - id: github-resmi
-    category: Kontak
-    question: "Di mana profil GitHub resmi KING403?"
-    answer: "Organisasi resmi: github.com/King403resmi. Portal brand: github.com/King403situs dan github.com/King403situs/king403situs.github.io. Peta tautan lengkap di halaman Profil Digital."
-    featured: false
+- id: github-resmi
+  category: Kontak
+  question: "Di mana profil GitHub resmi KING403?"
+  answer: "Organisasi resmi: github.com/King403resmi. Portal brand: github.com/King403situs dan github.com/King403situs/king403situs.github.io. Peta tautan lengkap di halaman Profil Digital."
+  featured: false
 
-  - id: heylink-heycard
-    category: Kontak
-    question: "Di mana link agregator resmi KING403?"
-    answer: "HeyLink: heylink.me/king403.it.com dan HeyCard: heycard.link/king403. Channel YouTube: youtube.com/@seosementara5. Semua tercantum di halaman Profil Digital."
-    featured: false
+- id: heylink-heycard
+  category: Kontak
+  question: "Di mana link agregator resmi KING403?"
+  answer: "HeyLink: heylink.me/king403.it.com dan HeyCard: heycard.link/king403. Channel YouTube: youtube.com/@seosementara5. Semua tercantum di halaman Profil Digital."
+  featured: false
 
 - id: hubungi-sales
   category: Kontak

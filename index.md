@@ -20,8 +20,8 @@ image: /assets/images/og-image.svg
     <ul class="k403-pills">
       <li><a class="k403-pill k403-pill--gold" href="https://king403.it.com/">Situs Resmi</a></li>
       <li><a class="k403-pill k403-pill--outline" href="https://apidevel.org/">Developer</a></li>
-      <li><a class="k403-pill k403-pill--outline" href="{{ '/kontak.html' | relative_url }}">Konsultasi Gratis</a></li>
-      <li><a class="k403-pill k403-pill--outline" href="{{ '/layanan.html' | relative_url }}">Layanan</a></li>
+      <li><a class="k403-pill k403-pill--outline" href="{{ '/kontak/' | relative_url }}">Konsultasi Gratis</a></li>
+      <li><a class="k403-pill k403-pill--outline" href="{{ '/layanan/' | relative_url }}">Layanan</a></li>
     </ul>
   </div>
 </section>
@@ -41,7 +41,7 @@ image: /assets/images/og-image.svg
 <section class="k403-section">
   <div class="k403-section__head">
     <h2 class="k403-section__title">Pilar Layanan</h2>
-    <a class="k403-link-arrow" href="{{ '/layanan.html' | relative_url }}">Semua layanan</a>
+    <a class="k403-link-arrow" href="{{ '/layanan/' | relative_url }}">Semua layanan</a>
   </div>
   <div class="k403-cards">
     <article class="k403-card">
@@ -100,13 +100,13 @@ image: /assets/images/og-image.svg
   <div class="k403-pipeline">
     <span>Discovery</span><span>Scope</span><span>Design</span><span>Development</span><span>QA</span><span>Launch</span><span>Support</span>
   </div>
-  <p class="k403-section__note">MVP platform: <strong>8–12 minggu</strong> · Enterprise multi-modul: <strong>3–6 bulan</strong> · <a href="{{ '/teknologi.html' | relative_url }}">Metodologi lengkap →</a></p>
+  <p class="k403-section__note">MVP platform: <strong>8–12 minggu</strong> · Enterprise multi-modul: <strong>3–6 bulan</strong> · <a href="{{ '/teknologi/' | relative_url }}">Metodologi lengkap →</a></p>
 </section>
 
 <section class="k403-section">
   <div class="k403-section__head">
     <h2 class="k403-section__title">Portofolio Terpilih</h2>
-    <a class="k403-link-arrow" href="{{ '/proyek.html' | relative_url }}">Studi kasus</a>
+    <a class="k403-link-arrow" href="{{ '/proyek/' | relative_url }}">Studi kasus</a>
   </div>
   <div class="k403-portfolio">
     <article class="k403-portfolio__item">
@@ -136,35 +136,35 @@ image: /assets/images/og-image.svg
   <h2 class="k403-section__title k403-section__title--light">Apa Kata Klien</h2>
   <p class="k403-section__sub k403-section__sub--light">Dipercaya klien fintech, e-commerce, edutech, retail, SaaS, dan enterprise.</p>
   {% include k403-testimonials.html limit=3 featured=true %}
-  <p class="k403-testimonial-cta"><a href="{{ '/testimoni.html' | relative_url }}">Lihat semua testimoni →</a></p>
+  <p class="k403-testimonial-cta"><a href="{{ '/testimoni/' | relative_url }}">Lihat semua testimoni →</a></p>
 </section>
 
 <section class="k403-section k403-section--alt">
   <div class="k403-section__head">
     <h2 class="k403-section__title">Pertanyaan Umum</h2>
-    <a class="k403-link-arrow" href="{{ '/faq.html' | relative_url }}">Semua FAQ</a>
+    <a class="k403-link-arrow" href="{{ '/faq/' | relative_url }}">Semua FAQ</a>
   </div>
   <p class="k403-section__sub">Jawaban singkat untuk calon klien, mitra, dan kandidat karir.</p>
   {% include k403-faq.html featured=true limit=6 %}
-  <p class="k403-faq-cta"><a href="{{ '/faq.html' | relative_url }}">Lihat semua pertanyaan →</a></p>
+  <p class="k403-faq-cta"><a href="{{ '/faq/' | relative_url }}">Lihat semua pertanyaan →</a></p>
 </section>
 
 <section class="k403-section">
   <div class="k403-section__head">
     <h2 class="k403-section__title">Berita & Insight</h2>
-    <a class="k403-link-arrow" href="{{ '/berita.html' | relative_url }}">Semua berita</a>
+    <a class="k403-link-arrow" href="{{ '/berita/' | relative_url }}">Semua berita</a>
   </div>
   <ul class="k403-news">
-    <li><time>Jun 2026</time><a href="/berita.html#perluas-divisi-cloud">KING403 Perluas Divisi Cloud & Security</a></li>
-    <li><time>Mei 2026</time><a href="/berita.html#best-practice-multi-tenant">Best Practice Arsitektur Multi-Tenant 2026</a></li>
-    <li><time>Apr 2026</time><a href="/berita.html#partnership-cdn">Partnership dengan Provider CDN Regional</a></li>
+    <li><time>Jun 2026</time><a href="{{ '/berita/' | relative_url }}#perluas-divisi-cloud">KING403 Perluas Divisi Cloud & Security</a></li>
+    <li><time>Mei 2026</time><a href="{{ '/berita/' | relative_url }}#best-practice-multi-tenant">Best Practice Arsitektur Multi-Tenant 2026</a></li>
+    <li><time>Apr 2026</time><a href="{{ '/berita/' | relative_url }}#partnership-cdn">Partnership dengan Provider CDN Regional</a></li>
   </ul>
 </section>
 
 <section class="k403-section k403-section--alt">
   <h2 class="k403-section__title">Domain & Platform Resmi</h2>
   {% include k403-digital-links.html homepage=true %}
-  <p class="k403-section__note"><a href="{{ '/profil-digital.html' | relative_url }}">Peta tautan lengkap →</a></p>
+  <p class="k403-section__note"><a href="{{ '/profil-digital/' | relative_url }}">Peta tautan lengkap →</a></p>
 </section>
 
 <section class="k403-cta">
@@ -172,13 +172,13 @@ image: /assets/images/og-image.svg
   <p class="k403-cta__text">Konsultasi awal gratis — tanpa komitmen. Diskusikan platform, timeline, dan budget dengan tim KING403.</p>
   <div class="k403-cta__actions">
     <a class="k403-btn k403-btn--gold" href="mailto:hello@king403.com">hello@king403.com</a>
-    <a class="k403-btn k403-btn--outline" href="{{ '/kontak.html' | relative_url }}">Formulir Kontak</a>
+    <a class="k403-btn k403-btn--outline" href="{{ '/kontak/' | relative_url }}">Formulir Kontak</a>
   </div>
 </section>
 
 <section class="k403-seo-block">
   <h2 class="k403-seo-block__title">KING403 — Brand Resmi Indonesia</h2>
-  <p><strong>KING403</strong> (<em>king403</em>, <em>KING403 resmi</em>) — perusahaan teknologi digital sejak 2020. Ekosistem: <a href="https://king403.it.com/">king403.it.com</a> · <a href="https://apidevel.org/">apidevel.org</a> · <a href="{{ '/profil-digital.html' | relative_url }}">Profil Digital</a> · <a href="https://heylink.me/king403.it.com/">HeyLink</a> · <a href="https://www.youtube.com/@seosementara5">YouTube</a> · <a href="https://github.com/King403resmi">GitHub</a></p>
+  <p><strong>KING403</strong> (<em>king403</em>, <em>KING403 resmi</em>) — perusahaan teknologi digital sejak 2020. Ekosistem: <a href="https://king403.it.com/">king403.it.com</a> · <a href="https://apidevel.org/">apidevel.org</a> · <a href="{{ '/profil-digital/' | relative_url }}">Profil Digital</a> · <a href="https://heylink.me/king403.it.com/">HeyLink</a> · <a href="https://www.youtube.com/@seosementara5">YouTube</a> · <a href="https://github.com/King403resmi">GitHub</a></p>
 </section>
 
 <footer class="k403-home-footer">

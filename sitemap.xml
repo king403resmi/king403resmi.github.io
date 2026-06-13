@@ -14,88 +14,17 @@ sitemap: false
     <xhtml:link rel="alternate" hreflang="id" href="{{ site.url }}/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.official.site }}/"/>
   </url>
+{%- assign sitemap_pages = "profil-digital,tentang,layanan,testimoni,proyek,teknologi,berita,mitra,tim,karir,faq,kontak,kebijakan-privasi,syarat-ketentuan" | split: "," -%}
+{%- for slug in sitemap_pages -%}
+  {%- assign page_path = slug | append: ".md" -%}
+  {%- assign sp = site.pages | where: "path", page_path | first -%}
+  {%- if sp -%}
   <url>
-    <loc>{{ site.url }}/profil-digital.html</loc>
+    <loc>{{ sp.url | absolute_url }}</loc>
     <lastmod>2026-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
+    <changefreq>{% if slug == 'berita' or slug == 'karir' %}weekly{% else %}monthly{% endif %}</changefreq>
+    <priority>{% if slug == 'profil-digital' or slug == 'tentang' %}0.95{% elsif slug == 'faq' or slug == 'kontak' or slug == 'layanan' %}0.90{% else %}0.80{% endif %}</priority>
   </url>
-  <url>
-    <loc>{{ site.url }}/tentang.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/layanan.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/testimoni.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.88</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/proyek.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/teknologi.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/berita.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/mitra.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/tim.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/karir.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/faq.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/kontak.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/kebijakan-privasi.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/syarat-ketentuan.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
-  </url>
+  {%- endif -%}
+{%- endfor -%}
 </urlset>

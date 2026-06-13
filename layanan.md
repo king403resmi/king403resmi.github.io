@@ -1,6 +1,5 @@
 ﻿---
 layout: k403-page
-permalink: /layanan.html
 title: Layanan
 description: "Layanan resmi KING403: pengembangan platform, brand strategy, DevOps cloud, customer support, keamanan, dan analytics."
 keywords: "KING403 layanan, jasa KING403, layanan KING403, KING403 services"
@@ -212,4 +211,4 @@ Kami tidak publikasi rate card fixed — setiap proyek unik. Faktor penentu:
 📧 [hello@king403.com](mailto:hello@king403.com)  
 📋 [partnership@king403.com](mailto:partnership@king403.com) (kemitraan B2B)
 
-[← Tentang](/tentang.html) · [Portofolio →](/proyek.html) · [Kontak →](/kontak.html)
+[← Tentang](/tentang/) · [Portofolio →](/proyek/) · [Kontak →](/kontak/)

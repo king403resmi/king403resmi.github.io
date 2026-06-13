@@ -1,6 +1,5 @@
 ﻿---
 layout: k403-page
-permalink: /karir.html
 title: Karir
 description: "Lowongan karir di KING403: backend, frontend, DevOps, design, support. Lamar ke careers@king403.com."
 keywords: "KING403 karir, lowongan KING403, kerja KING403, hiring KING403"
@@ -152,4 +151,4 @@ Timeline typical: **2–3 minggu** dari apply to offer.
 
 Tidak ada posisi yang cocok? Kirim CV anyway — kami simpan di talent pool untuk kebutuhan mendatang.
 
-[← Tim](/tim.html) · [FAQ →](/faq.html) · [Kontak →](/kontak.html)
+[← Tim](/tim/) · [FAQ →](/faq/) · [Kontak →](/kontak/)

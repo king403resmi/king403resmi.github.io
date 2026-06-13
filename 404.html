@@ -14,44 +14,25 @@ robots: noindex, follow
   <p class="k403-hero__lead">URL yang Anda buka tidak ada atau sudah dipindahkan. Gunakan tautan di bawah untuk kembali ke portal KING403.</p>
   <ul class="k403-pills">
     <li><a class="k403-pill k403-pill--gold" href="{{ '/' | relative_url }}">Beranda</a></li>
-    <li><a class="k403-pill k403-pill--outline" href="{{ '/kontak.html' | relative_url }}">Kontak</a></li>
-    <li><a class="k403-pill k403-pill--outline" href="{{ '/faq.html' | relative_url }}">FAQ</a></li>
+    <li><a class="k403-pill k403-pill--outline" href="{{ '/kontak/' | relative_url }}">Kontak</a></li>
+    <li><a class="k403-pill k403-pill--outline" href="{{ '/faq/' | relative_url }}">FAQ</a></li>
   </ul>
 </section>
 
 <section class="k403-section">
   <h2 class="k403-section__title">Halaman Populer</h2>
   <div class="k403-cards k403-cards--links">
-    <a class="k403-card k403-card--link" href="{{ '/tentang.html' | relative_url }}">
+    {%- assign popular = "tentang.md|layanan.md|proyek.md|testimoni.md|berita.md|profil-digital.md" | split: "|" -%}
+    {%- for path in popular -%}
+      {%- assign p = site.pages | where: "path", path | first -%}
+      {%- if p -%}
+    <a class="k403-card k403-card--link" href="{{ p.url | relative_url }}">
       <span class="k403-card__icon">&#9679;</span>
-      <h3 class="k403-card__title">Tentang</h3>
-      <p class="k403-card__text">Profil perusahaan KING403</p>
+      <h3 class="k403-card__title">{{ p.title }}</h3>
+      <p class="k403-card__text">{{ p.description | truncate: 60 }}</p>
     </a>
-    <a class="k403-card k403-card--link" href="{{ '/layanan.html' | relative_url }}">
-      <span class="k403-card__icon">&#9679;</span>
-      <h3 class="k403-card__title">Layanan</h3>
-      <p class="k403-card__text">6 lini layanan digital</p>
-    </a>
-    <a class="k403-card k403-card--link" href="{{ '/proyek.html' | relative_url }}">
-      <span class="k403-card__icon">&#9679;</span>
-      <h3 class="k403-card__title">Portofolio</h3>
-      <p class="k403-card__text">Studi kasus proyek</p>
-    </a>
-    <a class="k403-card k403-card--link" href="{{ '/testimoni.html' | relative_url }}">
-      <span class="k403-card__icon">&#9679;</span>
-      <h3 class="k403-card__title">Testimoni</h3>
-      <p class="k403-card__text">Review klien KING403</p>
-    </a>
-    <a class="k403-card k403-card--link" href="{{ '/berita.html' | relative_url }}">
-      <span class="k403-card__icon">&#9679;</span>
-      <h3 class="k403-card__title">Berita</h3>
-      <p class="k403-card__text">Update dan insight</p>
-    </a>
-    <a class="k403-card k403-card--link" href="{{ '/profil-digital.html' | relative_url }}">
-      <span class="k403-card__icon">&#9679;</span>
-      <h3 class="k403-card__title">Profil Digital</h3>
-      <p class="k403-card__text">Peta tautan resmi brand</p>
-    </a>
+      {%- endif -%}
+    {%- endfor -%}
   </div>
 </section>
 

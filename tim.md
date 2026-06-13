@@ -1,6 +1,5 @@
 ﻿---
 layout: k403-page
-permalink: /tim.html
 title: Tim
 description: "Tim profesional KING403: kepemimpinan, divisi engineering, design, DevOps, dan budaya kerja remote-first."
 keywords: "KING403 tim, team KING403, karyawan KING403"
@@ -93,6 +92,6 @@ Tim KING403 multiregional: Jakarta, Bandung, Yogyakarta, Surabaya, Bali, Makassa
 
 ## Bergabung?
 
-[Lihat lowongan →](/karir.html) · [Kirim CV spontan →](mailto:careers@king403.com)
+[Lihat lowongan →](/karir/) · [Kirim CV spontan →](mailto:careers@king403.com)
 
-[← Mitra](/mitra.html) · [Karir →](/karir.html)
+[← Mitra](/mitra/) · [Karir →](/karir/)

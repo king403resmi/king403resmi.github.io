@@ -1,6 +1,5 @@
 ﻿---
 layout: k403-page
-permalink: /tentang.html
 title: Tentang
 description: "Profil lengkap KING403: sejarah, visi, nilai, tim, dan jejak digital resmi brand KING403 Indonesia sejak 2020."
 keywords: "KING403, tentang KING403, profil KING403, perusahaan KING403, KING403 Indonesia"
@@ -96,8 +95,8 @@ CEO / Founder
 | **Nama brand** | KING403 |
 | **Bidang usaha** | Jasa teknologi informasi & konsultasi digital |
 | **Wilayah operasi** | Indonesia (remote-first, hub Jakarta) |
-| **Kebijakan privasi** | [kebijakan-privasi.html](/kebijakan-privasi.html) |
-| **Syarat layanan** | [syarat-ketentuan.html](/syarat-ketentuan.html) |
+| **Kebijakan privasi** | [Kebijakan privasi](/kebijakan-privasi/) |
+| **Syarat layanan** | [Syarat & ketentuan](/syarat-ketentuan/) |
 
 ---
 
@@ -107,9 +106,9 @@ KING403 rutin mengadakan:
 
 - **Workshop gratis** digital literacy untuk UMKM
 - **Mentoring** engineer junior via program internship
-- **Open knowledge** — artikel teknis di [Berita](/berita.html)
+- **Open knowledge** — artikel teknis di [Berita](/berita/)
 
-Detail program: [halaman Mitra & CSR](/mitra.html#csr)
+Detail program: [halaman Mitra & CSR](/mitra/#csr)
 
 ---
 
@@ -128,8 +127,8 @@ Detail program: [halaman Mitra & CSR](/mitra.html#csr)
 | **HeyCard** | [heycard.link/king403](https://heycard.link/king403) |
 | **YouTube** | [youtube.com/@seosementara5](https://www.youtube.com/@seosementara5) |
 
-[Peta tautan internal lengkap →](/profil-digital.html)
+[Peta tautan internal lengkap →](/profil-digital/)
 
 ---
 
-[← Beranda](/) · [Layanan →](/layanan.html) · [Tim →](/tim.html)
+[← Beranda](/) · [Layanan →](/layanan/) · [Tim →](/tim/)

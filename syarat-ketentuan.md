@@ -1,6 +1,5 @@
 ﻿---
 layout: k403-page
-permalink: /syarat-ketentuan.html
 title: Syarat
 description: "Syarat dan ketentuan penggunaan website dan layanan resmi KING403."
 keywords: "KING403 syarat ketentuan, terms KING403"
@@ -54,4 +53,4 @@ Pertanyaan hukum: [hello@king403.com](mailto:hello@king403.com)
 
 ---
 
-[← Kebijakan Privasi](/kebijakan-privasi.html) · [Beranda →](/)
+[← Kebijakan Privasi](/kebijakan-privasi/) · [Beranda →](/)

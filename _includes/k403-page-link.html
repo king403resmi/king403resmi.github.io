@@ -1,0 +1,2 @@
+{%- assign p = site.pages | where: "path", include.path | first -%}
+{%- if p -%}<a href="{{ p.url | relative_url }}"{% if include.class %} class="{{ include.class }}"{% endif %}>{{ include.label | default: p.nav_title | default: p.title | escape }}</a>{%- endif -%}

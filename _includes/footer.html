@@ -15,22 +15,22 @@
       <div class="k403-footer__col">
         <h3 class="k403-footer__heading">Perusahaan</h3>
         <ul class="k403-footer__list">
-          <li><a href="{{ '/tentang.html' | relative_url }}">Tentang</a></li>
-          <li><a href="{{ '/tim.html' | relative_url }}">Tim</a></li>
-          <li><a href="{{ '/karir.html' | relative_url }}">Karir</a></li>
-          <li><a href="{{ '/berita.html' | relative_url }}">Berita</a></li>
-          <li><a href="{{ '/kontak.html' | relative_url }}">Kontak</a></li>
+          <li>{% include k403-page-link.html path="tentang.md" %}</li>
+          <li>{% include k403-page-link.html path="tim.md" %}</li>
+          <li>{% include k403-page-link.html path="karir.md" %}</li>
+          <li>{% include k403-page-link.html path="berita.md" %}</li>
+          <li>{% include k403-page-link.html path="kontak.md" %}</li>
         </ul>
       </div>
 
       <div class="k403-footer__col">
         <h3 class="k403-footer__heading">Layanan</h3>
         <ul class="k403-footer__list">
-          <li><a href="{{ '/layanan.html' | relative_url }}">Layanan</a></li>
-          <li><a href="{{ '/proyek.html' | relative_url }}">Portofolio</a></li>
-          <li><a href="{{ '/testimoni.html' | relative_url }}">Testimoni</a></li>
-          <li><a href="{{ '/teknologi.html' | relative_url }}">Teknologi</a></li>
-          <li><a href="{{ '/faq.html' | relative_url }}">FAQ</a></li>
+          <li>{% include k403-page-link.html path="layanan.md" %}</li>
+          <li>{% include k403-page-link.html path="proyek.md" label="Portofolio" %}</li>
+          <li>{% include k403-page-link.html path="testimoni.md" %}</li>
+          <li>{% include k403-page-link.html path="teknologi.md" %}</li>
+          <li>{% include k403-page-link.html path="faq.md" %}</li>
         </ul>
       </div>
 
@@ -42,7 +42,7 @@
           <li><a href="https://heylink.me/king403.it.com/" rel="noopener">HeyLink</a></li>
           <li><a href="https://heycard.link/king403" rel="noopener">HeyCard</a></li>
           <li><a href="https://www.youtube.com/@seosementara5" rel="noopener">YouTube</a></li>
-          <li><a href="{{ '/profil-digital.html' | relative_url }}">Profil Digital</a></li>
+          <li>{% include k403-page-link.html path="profil-digital.md" label="Profil Digital" %}</li>
           <li><a href="https://github.com/King403resmi" rel="noopener">GitHub</a></li>
         </ul>
       </div>
@@ -52,9 +52,9 @@
     <div class="k403-footer__bar">
       <p class="k403-footer__copy">(c) 2020-2026 {{ site.title | escape }} - Semua hak dilindungi</p>
       <nav class="k403-footer__legal" aria-label="Legal">
-        <a href="{{ '/kebijakan-privasi.html' | relative_url }}">Privasi</a>
-        <a href="{{ '/syarat-ketentuan.html' | relative_url }}">Syarat</a>
-        <a href="{{ '/mitra.html' | relative_url }}">Mitra</a>
+        {% include k403-page-link.html path="kebijakan-privasi.md" label="Privasi" %}
+        {% include k403-page-link.html path="syarat-ketentuan.md" label="Syarat" %}
+        {% include k403-page-link.html path="mitra.md" %}
       </nav>
     </div>
 

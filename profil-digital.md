@@ -1,6 +1,5 @@
 ﻿---
 layout: k403-page
-permalink: /profil-digital.html
 title: Profil Digital
 nav_title: Profil
 description: "Pusat tautan resmi KING403: king403.it.com, apidevel.org, GitHub King403resmi, dan portal korporat."
@@ -114,7 +113,7 @@ Sebelum percaya sumber online, pastikan:
 
 - **Bug report website:** [GitHub Issues](https://github.com/king403resmi/king403resmi.github.io/issues)
 - **Pull request:** fork → branch → PR → review tim
-- **Lowongan:** [Karir](/karir.html) · [careers@king403.com](mailto:careers@king403.com)
+- **Lowongan:** [Karir](/karir/) · [careers@king403.com](mailto:careers@king403.com)
 
 ---
 
@@ -122,4 +121,4 @@ Sebelum percaya sumber online, pastikan:
 
 📧 [hello@king403.com](mailto:hello@king403.com) · 🤝 [partnership@king403.com](mailto:partnership@king403.com)
 
-[← Beranda](/) · [Tentang](/tentang.html) · [Kontak →](/kontak.html)
+[← Beranda](/) · [Tentang](/tentang/) · [Kontak →](/kontak/)

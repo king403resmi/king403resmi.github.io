@@ -1,6 +1,5 @@
 ﻿---
 layout: k403-page
-permalink: /kontak.html
 title: Kontak
 description: "Hubungi KING403 resmi: hello@king403.com, alamat Jakarta, formulir konsultasi, dan tautan GitHub."
 keywords: "KING403 kontak, contact KING403, email KING403, hubungi KING403"
@@ -90,7 +89,7 @@ Tim kami akan merespons dengan jadwal **discovery call gratis** (30–60 menit).
 | **HeyCard** | [heycard.link/king403](https://heycard.link/king403) |
 | **YouTube** | [youtube.com/@seosementara5](https://www.youtube.com/@seosementara5) |
 
-[Profil digital & peta internal link →](/profil-digital.html)
+[Profil digital & peta internal link →](/profil-digital/)
 
 ---
 
@@ -100,8 +99,8 @@ Tim kami akan merespons dengan jadwal **discovery call gratis** (30–60 menit).
 - **Apakah melayani klien luar Indonesia?** → Ya, remote engagement.  
 - **Bahasa komunikasi?** → Indonesia & English.
 
-[FAQ lengkap →](/faq.html)
+[FAQ lengkap →](/faq/)
 
 ---
 
-[← FAQ](/faq.html) · [Beranda →](/)
+[← FAQ](/faq/) · [Beranda →](/)

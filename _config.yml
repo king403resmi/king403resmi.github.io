@@ -103,8 +103,3 @@ defaults:
     values:
       layout: "k403-page"
       sitemap: false
-  - scope:
-      path: "redirects/**"
-    values:
-      layout: "redirect"
-      sitemap: false
