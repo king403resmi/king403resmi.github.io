@@ -1,5 +1,5 @@
-<p align="center">
-  <img src="assets/images/logo.png" alt="KING403" width="280">
+﻿<p align="center">
+  <img src="assets/images/logo.svg" alt="KING403" width="280">
 </p>
 
 <h1 align="center">KING403</h1>

@@ -1,117 +1,101 @@
+---
+layout: null
+permalink: /sitemap.xml
+sitemap: false
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-  <!-- Beranda -->
   <url>
-    <loc>https://king403resmi.github.io/</loc>
+    <loc>{{ site.url }}/</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://king403resmi.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://king403.it.com/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="{{ site.url }}/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.official.site }}/"/>
   </url>
-
-  <!-- Brand & profil (prioritas tinggi) -->
   <url>
-    <loc>https://king403resmi.github.io/profil-digital.html</loc>
+    <loc>{{ site.url }}/profil-digital.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://king403resmi.github.io/tentang.html</loc>
+    <loc>{{ site.url }}/tentang.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
-
-  <!-- Layanan & portofolio -->
   <url>
-    <loc>https://king403resmi.github.io/layanan.html</loc>
+    <loc>{{ site.url }}/layanan.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://king403resmi.github.io/testimoni.html</loc>
+    <loc>{{ site.url }}/testimoni.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.88</priority>
   </url>
   <url>
-    <loc>https://king403resmi.github.io/proyek.html</loc>
+    <loc>{{ site.url }}/proyek.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://king403resmi.github.io/teknologi.html</loc>
+    <loc>{{ site.url }}/teknologi.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
-
-  <!-- Konten & komunitas -->
   <url>
-    <loc>https://king403resmi.github.io/berita.html</loc>
+    <loc>{{ site.url }}/berita.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://king403resmi.github.io/mitra.html</loc>
+    <loc>{{ site.url }}/mitra.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://king403resmi.github.io/tim.html</loc>
+    <loc>{{ site.url }}/tim.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://king403resmi.github.io/karir.html</loc>
+    <loc>{{ site.url }}/karir.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
-
-  <!-- Dukungan & kontak -->
   <url>
-    <loc>https://king403resmi.github.io/faq.html</loc>
+    <loc>{{ site.url }}/faq.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://king403resmi.github.io/kontak.html</loc>
+    <loc>{{ site.url }}/kontak.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
-
-  <!-- Legal -->
   <url>
-    <loc>https://king403resmi.github.io/kebijakan-privasi.html</loc>
+    <loc>{{ site.url }}/kebijakan-privasi.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
-    <loc>https://king403resmi.github.io/syarat-ketentuan.html</loc>
+    <loc>{{ site.url }}/syarat-ketentuan.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.50</priority>
   </url>
-
-  <!-- Feed RSS (jekyll-feed) -->
-  <url>
-    <loc>https://king403resmi.github.io/feed.xml</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.30</priority>
-  </url>
-
 </urlset>

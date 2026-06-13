@@ -1,5 +1,6 @@
----
-layout: default
+﻿---
+layout: k403-page
+permalink: /mitra.html
 title: Mitra
 description: "Mitra teknologi, klien, testimoni, dan program kemitraan B2B resmi KING403 Indonesia."
 keywords: "KING403 mitra, klien KING403, partnership KING403"
@@ -10,7 +11,7 @@ keywords: "KING403 mitra, klien KING403, partnership KING403"
 KING403 percaya pertumbuhan melalui **kemitraan jangka panjang** — dengan klien, vendor teknologi, dan komunitas.
 
 <p align="center">
-  <img src="/assets/images/logo.png" alt="KING403" width="180">
+  <img src="/assets/images/logo.svg" alt="KING403" width="180">
 </p>
 
 ---
@@ -51,7 +52,7 @@ Kami telah bekerja dengan organisasi di berbagai sektor:
 > *"Rebrand + website rebuild dalam satu engagement. Tim creative dan dev sync-nya excellent."*  
 > **Marketing Director**
 
-[Lihat semua testimoni →](testimoni.html)
+[Lihat semua testimoni →](/testimoni.html)
 
 ---
 
@@ -82,7 +83,7 @@ KING403 bekerja sama dengan provider terkemuka:
 | [**King403resmi**](https://github.com/King403resmi) | GitHub · portal korporat |
 | [**King403situs**](https://github.com/King403situs) | GitHub · portal brand |
 
-→ [Profil digital lengkap](profil-digital.html)
+→ [Profil digital lengkap](/profil-digital.html)
 
 ---
 
@@ -110,7 +111,7 @@ Workshop gratis quarterly — website dasar, SEO, keamanan online.
 Program magang 3 bulan + mentoring engineer junior via meetup lokal.
 
 ### Open Knowledge
-Artikel teknis di [Berita](berita.html) — gratis untuk komunitas developer Indonesia.
+Artikel teknis di [Berita](/berita.html) — gratis untuk komunitas developer Indonesia.
 
 ### Pro Bono (selective)
 1 slot proyek pro bono per tahun untuk organisasi nirlaba pendidikan/sosial.
@@ -129,4 +130,4 @@ Untuk interview, press release, atau data perusahaan:
 
 ---
 
-[← Berita](berita.html) · [Tim →](tim.html)
+[← Berita](/berita.html) · [Tim →](/tim.html)

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="k403-page{% if page.page_bare %} k403-page--bare{% endif %}">
+{%- if page.page_title -%}
+  <section class="k403-hero k403-hero--page">
+    <h1 class="k403-hero__title">{{ page.page_title | escape }}</h1>
+    {%- if page.page_lead -%}
+    <p class="k403-hero__lead">{{ page.page_lead | escape }}</p>
+    {%- endif -%}
+  </section>
+{%- endif -%}
+{%- if page.page_bare -%}
+  {{ content }}
+{%- else -%}
+  <article class="k403-page__card">
+    <div class="k403-prose">
+      {{ content }}
+    </div>
+  </article>
+{%- endif -%}
+</div>

@@ -1,7 +1,5 @@
-<link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+<link rel="icon" href="{{ '/assets/images/logo-icon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ '/assets/images/logo-icon.svg' | relative_url }}">
 <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
 
 <meta name="google-site-verification" content="IPheGhcweAfJ8jaszFppcaENvr5Nv7yWJffHqkKPsM0" />
@@ -10,7 +8,8 @@
 
 <meta name="keywords" content="{{ seo_keywords }}">
 <meta name="author" content="KING403">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+{%- assign robots_meta = page.robots | default: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" -%}
+<meta name="robots" content="{{ robots_meta }}">
 <meta name="googlebot" content="index, follow">
 <meta name="application-name" content="KING403">
 <meta name="apple-mobile-web-app-title" content="KING403">
@@ -24,10 +23,4 @@
 <meta property="og:locale" content="id_ID">
 <meta property="og:image:alt" content="KING403 - Perusahaan Teknologi Digital Indonesia">
 
-{% include seo-brand-jsonld.html %}
-{% if page.url contains 'faq' %}
-{% include seo-faq-jsonld.html %}
-{% endif %}
-{% if page.url contains 'testimoni' %}
-{% include seo-reviews-jsonld.html %}
-{% endif %}
+{% include seo-schema.html %}

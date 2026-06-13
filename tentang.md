@@ -1,5 +1,6 @@
----
-layout: default
+﻿---
+layout: k403-page
+permalink: /tentang.html
 title: Tentang
 description: "Profil lengkap KING403: sejarah, visi, nilai, tim, dan jejak digital resmi brand KING403 Indonesia sejak 2020."
 keywords: "KING403, tentang KING403, profil KING403, perusahaan KING403, KING403 Indonesia"
@@ -8,7 +9,7 @@ keywords: "KING403, tentang KING403, profil KING403, perusahaan KING403, KING403
 # Tentang KING403
 
 <p align="center">
-  <img src="/assets/images/logo.png" alt="KING403" width="220">
+  <img src="/assets/images/logo.svg" alt="KING403" width="220">
 </p>
 
 **KING403** adalah perusahaan teknologi digital yang berdiri sejak **2020** di Indonesia. Kami lahir dari keyakinan bahwa setiap brand — regardless of size — berhak mendapatkan infrastruktur digital setara enterprise: aman, cepat, dan mudah dioperasikan.
@@ -95,8 +96,8 @@ CEO / Founder
 | **Nama brand** | KING403 |
 | **Bidang usaha** | Jasa teknologi informasi & konsultasi digital |
 | **Wilayah operasi** | Indonesia (remote-first, hub Jakarta) |
-| **Kebijakan privasi** | [kebijakan-privasi.html](kebijakan-privasi.html) |
-| **Syarat layanan** | [syarat-ketentuan.html](syarat-ketentuan.html) |
+| **Kebijakan privasi** | [kebijakan-privasi.html](/kebijakan-privasi.html) |
+| **Syarat layanan** | [syarat-ketentuan.html](/syarat-ketentuan.html) |
 
 ---
 
@@ -106,9 +107,9 @@ KING403 rutin mengadakan:
 
 - **Workshop gratis** digital literacy untuk UMKM
 - **Mentoring** engineer junior via program internship
-- **Open knowledge** — artikel teknis di [Berita](berita.html)
+- **Open knowledge** — artikel teknis di [Berita](/berita.html)
 
-Detail program: [halaman Mitra & CSR](mitra.html#csr)
+Detail program: [halaman Mitra & CSR](/mitra.html#csr)
 
 ---
 
@@ -119,12 +120,16 @@ Detail program: [halaman Mitra & CSR](mitra.html#csr)
 | **Situs resmi** | [**king403.it.com**](https://king403.it.com/) |
 | **Developer platform** | [**apidevel.org**](https://apidevel.org/) |
 | **Portal korporat** | [king403resmi.github.io](https://king403resmi.github.io/) |
+| **Repo portal korporat** | [github.com/king403resmi/king403resmi.github.io](https://github.com/king403resmi/king403resmi.github.io) |
 | **GitHub Organization** | [github.com/King403resmi](https://github.com/King403resmi) |
-| **Repo portal (source)** | [king403resmi.github.io](https://github.com/king403resmi/king403resmi.github.io) |
 | **Org portal brand** | [github.com/King403situs](https://github.com/King403situs) |
+| **Repo portal brand** | [github.com/King403situs/king403situs.github.io](https://github.com/King403situs/king403situs.github.io) |
+| **HeyLink** | [heylink.me/king403.it.com](https://heylink.me/king403.it.com/) |
+| **HeyCard** | [heycard.link/king403](https://heycard.link/king403) |
+| **YouTube** | [youtube.com/@seosementara5](https://www.youtube.com/@seosementara5) |
 
-[Peta tautan internal lengkap →](profil-digital.html)
+[Peta tautan internal lengkap →](/profil-digital.html)
 
 ---
 
-[← Beranda](index.html) · [Layanan →](layanan.html) · [Tim →](tim.html)
+[← Beranda](/) · [Layanan →](/layanan.html) · [Tim →](/tim.html)

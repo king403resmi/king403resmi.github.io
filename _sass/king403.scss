@@ -503,6 +503,21 @@
   color: #6b7280;
 }
 
+.k403-domains--compact {
+  margin-bottom: 1.25rem;
+}
+
+.k403-digital__group {
+  margin: 1.5rem 0 0.75rem;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #0a0a0a;
+}
+
+.k403-digital__group:first-child {
+  margin-top: 0;
+}
+
 /* CTA block */
 .k403-cta {
   text-align: center;
@@ -658,15 +673,17 @@
   color: #4b5563;
 }
 
-.k403-testimonial__quote {
+.k403-testimonial blockquote.k403-testimonial__quote {
   flex: 1;
-  margin: 0 0 1.1rem;
-  padding: 0;
-  border: 0;
+  margin: 0 0 1.1rem !important;
+  padding: 0 !important;
+  border: none !important;
+  border-left: none !important;
+  background: transparent !important;
   font-style: italic;
   font-size: 0.95rem;
   line-height: 1.55;
-  color: #d1d5db;
+  color: #e5e7eb !important;
 }
 
 .k403-testimonial__author {
@@ -790,6 +807,301 @@
   text-decoration: none;
 }
 
+/* FAQ accordion */
+.k403-faq {
+  margin: 1.25rem 0;
+}
+
+.k403-faq__category {
+  margin: 1.5rem 0 0.75rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid #e8c547;
+  font-size: 1.05rem;
+  color: #0a0a0a;
+}
+
+.k403-faq__category:first-child {
+  margin-top: 0;
+}
+
+.k403-faq__item {
+  margin-bottom: 0.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.k403-faq__item[open] {
+  border-color: rgba(232, 197, 71, 0.45);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.k403-faq__q {
+  padding: 0.9rem 1.1rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #1f2937;
+  cursor: pointer;
+  list-style: none;
+}
+
+.k403-faq__q::-webkit-details-marker {
+  display: none;
+}
+
+.k403-faq__q::before {
+  content: "+";
+  display: inline-block;
+  width: 1.25rem;
+  margin-right: 0.35rem;
+  color: #b8941f;
+  font-weight: 800;
+}
+
+.k403-faq__item[open] .k403-faq__q::before {
+  content: "−";
+}
+
+.k403-faq__item[open] .k403-faq__q {
+  color: #b8941f;
+}
+
+.k403-faq__a {
+  padding: 0 1.1rem 0.9rem 2.6rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+.k403-faq__a p {
+  margin: 0;
+}
+
+.k403-faq--compact .k403-faq__item {
+  margin-bottom: 0.4rem;
+}
+
+.k403-faq-cta {
+  text-align: center;
+  margin: 1.25rem 0 0;
+}
+
+.k403-faq-cta a {
+  display: inline-block;
+  padding: 0.5rem 1.15rem;
+  border-radius: 999px;
+  border: 1px solid #e8c547;
+  color: #b8941f !important;
+  font-weight: 700;
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+
+.k403-faq-cta a:hover {
+  background: #e8c547;
+  color: #0a0a0a !important;
+  text-decoration: none;
+}
+
+.k403-faq-page {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.k403-page--bare .k403-faq {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.k403-page--bare .k403-faq-page__cta {
+  margin: 2rem 0 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.k403-page-nav {
+  margin-top: 1.5rem;
+  font-size: 0.88rem;
+  color: #6b7280;
+}
+
+/* Inner pages */
+.k403-page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+.k403-page--bare {
+  max-width: 1060px;
+}
+
+.k403-page--bare .k403-section {
+  margin-bottom: 1.5rem;
+}
+
+.k403-hero--page {
+  margin-bottom: 1.5rem;
+  padding: 2rem 1.5rem 1.75rem;
+}
+
+.k403-hero--404 .k403-hero__code {
+  margin: 0 0 0.35rem;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+  color: rgba(232, 197, 71, 0.35);
+  letter-spacing: -0.04em;
+}
+
+.k403-page__card {
+  padding: 2rem 1.75rem;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 1.5rem;
+}
+
+.k403-prose {
+  color: #374151;
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+.k403-prose > :first-child {
+  margin-top: 0;
+}
+
+.k403-prose h1 {
+  margin: 0 0 1rem;
+  font-size: 1.65rem;
+  font-weight: 800;
+  color: #0a0a0a;
+  letter-spacing: -0.02em;
+  border: none;
+  padding: 0;
+}
+
+.k403-prose h2 {
+  margin: 2rem 0 0.85rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid #e8c547;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #0a0a0a;
+}
+
+.k403-prose h3 {
+  margin: 1.35rem 0 0.5rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.k403-prose p,
+.k403-prose ul,
+.k403-prose ol {
+  margin: 0 0 1rem;
+}
+
+.k403-prose ul,
+.k403-prose ol {
+  padding-left: 1.35rem;
+}
+
+.k403-prose li {
+  margin-bottom: 0.35rem;
+}
+
+.k403-prose a {
+  color: #b8941f;
+  font-weight: 600;
+}
+
+.k403-prose a:hover {
+  color: #0a0a0a;
+}
+
+.k403-prose hr {
+  margin: 1.75rem 0;
+  border: none;
+  border-top: 1px solid #e5e7eb;
+}
+
+.k403-prose blockquote:not(.k403-testimonial__quote) {
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 3px solid #e8c547;
+  background: #f9fafb;
+  color: #374151;
+}
+
+.k403-prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.k403-prose table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0 1.25rem;
+  font-size: 0.9rem;
+}
+
+.k403-prose pre,
+.k403-prose code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.85em;
+}
+
+.k403-prose pre {
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  background: #111;
+  color: #e5e7eb;
+  overflow-x: auto;
+}
+
+.k403-prose :not(pre) > code {
+  padding: 0.12rem 0.35rem;
+  border-radius: 4px;
+  background: #f3f4f6;
+  color: #1f2937;
+}
+
+.k403-cards--links {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.k403-card--link {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
+}
+
+.k403-card--link:hover {
+  transform: translateY(-2px);
+  border-color: rgba(232, 197, 71, 0.45);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+}
+
+.k403-card--link .k403-card__title {
+  color: #0a0a0a;
+}
+
+.k403-card--link:hover .k403-card__title {
+  color: #b8941f;
+}
+
 /* Minima page-content spacing for homepage */
 .page-content {
   padding-top: 1.5rem;
@@ -797,6 +1109,10 @@
 }
 
 .page-content:has(.k403-home) {
+  padding-top: 1rem;
+}
+
+.page-content:has(.k403-page) {
   padding-top: 1rem;
 }
 

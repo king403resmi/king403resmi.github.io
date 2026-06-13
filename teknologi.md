@@ -1,5 +1,6 @@
----
-layout: default
+﻿---
+layout: k403-page
+permalink: /teknologi.html
 title: Teknologi
 description: "Stack teknologi dan metodologi engineering KING403: frontend, backend, cloud, DevOps, QA, dan keamanan."
 keywords: "KING403 teknologi, tech stack KING403, engineering KING403"
@@ -160,4 +161,4 @@ Tim KING403 alokasi **10% waktu engineering** untuk:
 
 ---
 
-[← Portofolio](proyek.html) · [Berita →](berita.html) · [FAQ →](faq.html)
+[← Portofolio](/proyek.html) · [Berita →](/berita.html) · [FAQ →](/faq.html)

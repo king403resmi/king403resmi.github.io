@@ -1,11 +1,12 @@
 {%- assign limit = include.limit | default: 999 | plus: 0 -%}
 {%- assign featured_only = include.featured | default: false -%}
-{%- assign count = 0 -%}
+{%- assign testimonial_list = site.data.testimonials -%}
+{%- if featured_only -%}
+  {%- assign testimonial_list = site.data.testimonials | where: "featured", true -%}
+{%- endif -%}
 
 <div class="k403-testimonials">
-{%- for t in site.data.testimonials -%}
-  {%- if featured_only and t.featured != true -%}{%- continue -%}{%- endif -%}
-  {%- if count >= limit -%}{%- break -%}{%- endif -%}
+{%- for t in testimonial_list limit: limit -%}
   {%- assign initial = t.name | slice: 0 -%}
   <article class="k403-testimonial">
     <div class="k403-testimonial__stars" aria-label="Rating {{ t.rating }} dari 5">
@@ -25,6 +26,5 @@
     <p class="k403-testimonial__project"><strong>Proyek:</strong> {{ t.project }}</p>
     {%- endif -%}
   </article>
-  {%- assign count = count | plus: 1 -%}
 {%- endfor -%}
 </div>

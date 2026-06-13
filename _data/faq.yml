@@ -1,0 +1,119 @@
+- id: apa-itu-king403
+  category: Perusahaan
+  question: "Apa itu KING403?"
+  answer: "KING403 adalah perusahaan teknologi digital Indonesia yang menyediakan pengembangan platform, konsultasi brand, infrastruktur cloud, dan layanan operasional support sejak 2020."
+  featured: true
+
+- id: situs-resmi
+  category: Perusahaan
+  question: "Apa situs resmi KING403?"
+  answer: "Situs resmi brand adalah king403.it.com. Portal korporat di king403resmi.github.io dan platform developer di apidevel.org."
+  featured: true
+
+- id: lokasi-kantor
+  category: Perusahaan
+  question: "Di mana lokasi kantor KING403?"
+  answer: "Headquarters operasional di Jakarta, Indonesia. Model kerja remote-first dengan optional co-working di Jakarta."
+  featured: false
+
+- id: ukuran-tim
+  category: Perusahaan
+  question: "Berapa ukuran tim KING403?"
+  answer: "40+ profesional across engineering, design, DevOps, dan operations per Q2 2026."
+  featured: false
+
+- id: layanan-apa
+  category: Layanan
+  question: "Layanan apa saja yang ditawarkan KING403?"
+  answer: "Enam lini utama: Platform Development, Brand Strategy, DevOps/Cloud, Customer Support, Security/Compliance, dan Data Analytics."
+  featured: true
+
+- id: mvp-timeline
+  category: Layanan
+  question: "Berapa lama waktu development MVP?"
+  answer: "8-12 minggu untuk MVP platform standar. Proyek enterprise multi-modul: 3-6 bulan dengan delivery bertahap."
+  featured: true
+
+- id: konsultasi-gratis
+  category: Layanan
+  question: "Apakah ada konsultasi gratis?"
+  answer: "Ya - discovery call gratis 30-60 menit untuk memahami kebutuhan awal. Proposal formal disusun setelah scope preliminary clear."
+  featured: true
+
+- id: source-code
+  category: Layanan
+  question: "Apakah source code jadi milik klien?"
+  answer: "Ya, untuk proyek fixed-scope source code dan IP deliverable diserahkan ke klien sesuai kontrak."
+  featured: false
+
+- id: maintenance
+  category: Layanan
+  question: "Apakah KING403 handle maintenance pasca launch?"
+  answer: "Ya - model retainer bulanan untuk bug fix, security patch, minor feature, dan monitoring."
+  featured: false
+
+- id: tech-stack
+  category: Teknis
+  question: "Tech stack apa yang dipakai KING403?"
+  answer: "React/Next.js, Node.js/Go, PostgreSQL, Redis, Docker, cloud AWS/GCP."
+  featured: false
+
+- id: mobile-app
+  category: Teknis
+  question: "Apakah KING403 support mobile app?"
+  answer: "Ya - React Native untuk cross-platform, atau PWA untuk use case lebih ringan."
+  featured: false
+
+- id: keamanan-data
+  category: Teknis
+  question: "Bagaimana dengan keamanan data?"
+  answer: "Security by design: encryption, access control, audit log, dependency scanning. Enterprise clients dapat request penetration test."
+  featured: false
+
+- id: pricing-model
+  category: Harga
+  question: "Bagaimana model pricing KING403?"
+  answer: "Fixed price untuk scope jelas, atau Time and Material untuk exploratory phase. Retainer untuk ongoing support."
+  featured: false
+
+- id: rate-card
+  category: Harga
+  question: "Apakah ada rate card publik?"
+  answer: "Tidak - setiap proyek di-quote custom berdasarkan scope, timeline, dan SLA."
+  featured: false
+
+- id: hiring
+  category: Karir
+  question: "Apakah KING403 sedang hiring?"
+  answer: "Lihat posisi terbuka di halaman Karir atau kirim CV ke careers@king403.com."
+  featured: true
+
+- id: remote-work
+  category: Karir
+  question: "Apakah remote work available?"
+  answer: "Ya - sebagian besar role remote/hybrid. Occasional on-site untuk workshop klien atau team gathering."
+  featured: false
+
+  - id: github-resmi
+    category: Kontak
+    question: "Di mana profil GitHub resmi KING403?"
+    answer: "Organisasi resmi: github.com/King403resmi. Portal brand: github.com/King403situs dan github.com/King403situs/king403situs.github.io. Peta tautan lengkap di halaman Profil Digital."
+    featured: false
+
+  - id: heylink-heycard
+    category: Kontak
+    question: "Di mana link agregator resmi KING403?"
+    answer: "HeyLink: heylink.me/king403.it.com dan HeyCard: heycard.link/king403. Channel YouTube: youtube.com/@seosementara5. Semua tercantum di halaman Profil Digital."
+    featured: false
+
+- id: hubungi-sales
+  category: Kontak
+  question: "Bagaimana cara hubungi KING403?"
+  answer: "Email hello@king403.com atau partnership@king403.com. Formulir tersedia di halaman Kontak."
+  featured: true
+
+- id: jam-operasional
+  category: Kontak
+  question: "Jam operasional kantor KING403?"
+  answer: "Senin-Jumat 09:00-18:00 WIB, Sabtu 09:00-14:00 WIB. Support enterprise: 24/7 per SLA kontrak."
+  featured: false

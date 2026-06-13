@@ -47,7 +47,7 @@ table th {
   font-weight: 700;
 }
 
-blockquote {
+.page-content blockquote:not(.k403-testimonial__quote) {
   margin: 1rem 0;
   padding: 0.75rem 1rem;
   border-left: 3px solid #e8c547;

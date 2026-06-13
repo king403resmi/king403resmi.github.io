@@ -1,5 +1,6 @@
----
-layout: default
+﻿---
+layout: k403-page
+permalink: /proyek.html
 title: Portofolio
 description: "Portofolio dan studi kasus proyek KING403 di fintech, SaaS, edutech, retail, e-commerce, dan media."
 keywords: "KING403 portofolio, proyek KING403, studi kasus KING403"
@@ -149,7 +150,7 @@ Platform media dengan 500k+ users butuh support 24/7 multi bahasa (ID/EN), SLA F
 
 ## Teknologi yang Sering Kami Pakai
 
-Lihat detail stack di halaman [Teknologi](teknologi.html).
+Lihat detail stack di halaman [Teknologi](/teknologi.html).
 
 ---
 
@@ -159,4 +160,4 @@ Ceritakan kebutuhan Anda — kami akan share relevan case study lengkap (under N
 
 📧 [partnership@king403.com](mailto:partnership@king403.com)
 
-[← Layanan](layanan.html) · [Teknologi →](teknologi.html)
+[← Layanan](/layanan.html) · [Teknologi →](/teknologi.html)

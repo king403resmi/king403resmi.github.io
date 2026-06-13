@@ -1,0 +1,22 @@
+{%- assign limit = include.limit | default: 999 | plus: 0 -%}
+{%- assign featured_only = include.featured | default: false -%}
+{%- assign faq_list = site.data.faq -%}
+{%- if featured_only -%}
+  {%- assign faq_list = site.data.faq | where: "featured", true -%}
+{%- endif -%}
+{%- assign current_category = "" -%}
+
+<div class="k403-faq{% if include.compact %} k403-faq--compact{% endif %}">
+{%- for item in faq_list limit: limit -%}
+  {%- unless include.compact -%}
+    {%- if item.category != current_category -%}
+      {%- assign current_category = item.category -%}
+      <h3 class="k403-faq__category">{{ current_category }}</h3>
+    {%- endif -%}
+  {%- endunless -%}
+  <details class="k403-faq__item">
+    <summary class="k403-faq__q">{{ item.question }}</summary>
+    <div class="k403-faq__a"><p>{{ item.answer }}</p></div>
+  </details>
+{%- endfor -%}
+</div>

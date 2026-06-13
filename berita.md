@@ -1,5 +1,6 @@
----
-layout: default
+﻿---
+layout: k403-page
+permalink: /berita.html
 title: Berita
 description: "Berita, press release, dan insight teknologi dari KING403 — update resmi brand dan perusahaan."
 keywords: "KING403 berita, news KING403, update KING403"
@@ -19,7 +20,7 @@ Update perusahaan, thought leadership engineering, dan insight industri digital.
 
 Rekrutmen dibuka untuk 5 posisi: Cloud Engineer, Security Analyst, dan DevOps Specialist.
 
-→ [Lowongan terbuka](karir.html)
+→ [Lowongan terbuka](/karir.html)
 
 ---
 
@@ -88,7 +89,7 @@ Checklist 7 pertanyaan sebelum memilih vendor tech:
 
 Program magang 3 bulan untuk mahasiswa TI & desain — mentorship langsung dari senior engineer. Slot terbatas: **8 posisi**.
 
-→ [Detail di Karir](karir.html)
+→ [Detail di Karir](/karir.html)
 
 ---
 
@@ -100,4 +101,4 @@ Ingin menerima update bulanan KING403?
 
 ---
 
-[← Teknologi](teknologi.html) · [Mitra →](mitra.html)
+[← Teknologi](/teknologi.html) · [Mitra →](/mitra.html)

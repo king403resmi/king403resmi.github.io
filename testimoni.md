@@ -1,5 +1,6 @@
----
-layout: default
+﻿---
+layout: k403-page
+permalink: /testimoni.html
 title: Testimoni
 description: "Testimoni dan review klien KING403 dari fintech, e-commerce, edutech, retail, SaaS, dan enterprise. Rating 5/5 dari partner resmi."
 keywords: "KING403 testimoni, review KING403, klien KING403, testimoni KING403 Indonesia"
@@ -8,7 +9,7 @@ keywords: "KING403 testimoni, review KING403, klien KING403, testimoni KING403 I
 # Testimoni Klien KING403
 
 <p align="center">
-  <img src="/assets/images/logo.png" alt="KING403 Testimoni" width="200">
+  <img src="/assets/images/logo.svg" alt="KING403 Testimoni" width="200">
 </p>
 
 Kami bangga menjadi partner transformasi digital bagi **35+ klien aktif** di berbagai industri. Berikut testimoni nyata dari organisasi yang telah bekerja sama dengan **KING403** - identitas klien disamarkan sesuai kebijakan NDA.
@@ -58,7 +59,7 @@ Kami bangga menjadi partner transformasi digital bagi **35+ klien aktif** di ber
 
 Untuk case study lengkap (termasuk metrik sebelum/sesudah), hubungi tim kami - tersedia under NDA jika diperlukan.
 
-[hello@king403.com](mailto:hello@king403.com) | [Formulir kontak](kontak.html)
+[hello@king403.com](mailto:hello@king403.com) | [Formulir kontak](/kontak.html)
 
 ---
 
@@ -66,4 +67,4 @@ Untuk case study lengkap (termasuk metrik sebelum/sesudah), hubungi tim kami - t
   <sub>Testimoni di atas berasal dari klien aktual KING403. Nama perusahaan disamarkan sesuai perjanjian kerahasiaan.</sub>
 </p>
 
-[Mitra & Klien](mitra.html) | [Portofolio](proyek.html) | [Beranda](index.html)
+[Mitra & Klien](/mitra.html) | [Portofolio](/proyek.html) | [Beranda](/)

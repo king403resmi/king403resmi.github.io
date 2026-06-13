@@ -1,0 +1,28 @@
+{%- if include.homepage -%}
+<div class="k403-domains">
+  {%- for item in site.data.digital_links -%}
+    {%- if item.homepage -%}
+    <a class="k403-domain" href="{{ item.url }}" rel="noopener noreferrer" target="_blank">
+      <strong>{{ item.name }}</strong>
+      <span>{{ item.description }}</span>
+    </a>
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+{%- else -%}
+{%- assign groups = "Domain resmi,Link-in-bio,Media sosial,Portal,GitHub" | split: "," -%}
+{%- for group in groups -%}
+  {%- assign items = site.data.digital_links | where: "category", group -%}
+  {%- if items.size > 0 -%}
+  <h3 class="k403-digital__group">{{ group }}</h3>
+  <div class="k403-domains k403-domains--compact">
+    {%- for item in items -%}
+    <a class="k403-domain" href="{{ item.url }}" rel="noopener noreferrer" target="_blank">
+      <strong>{{ item.name }}</strong>
+      <span>{{ item.description }}</span>
+    </a>
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
+{%- endfor -%}
+{%- endif -%}

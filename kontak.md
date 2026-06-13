@@ -1,5 +1,6 @@
----
-layout: default
+﻿---
+layout: k403-page
+permalink: /kontak.html
 title: Kontak
 description: "Hubungi KING403 resmi: hello@king403.com, alamat Jakarta, formulir konsultasi, dan tautan GitHub."
 keywords: "KING403 kontak, contact KING403, email KING403, hubungi KING403"
@@ -8,7 +9,7 @@ keywords: "KING403 kontak, contact KING403, email KING403, hubungi KING403"
 # Hubungi KING403
 
 <p align="center">
-  <img src="/assets/images/logo.png" alt="KING403" width="180">
+  <img src="/assets/images/logo.svg" alt="KING403" width="180">
 </p>
 
 Kami siap mendengarkan kebutuhan proyek, kemitraan, karir, atau media inquiry.
@@ -79,12 +80,17 @@ Tim kami akan merespons dengan jadwal **discovery call gratis** (30–60 menit).
 |----------|-----|
 | **Situs resmi** | [**king403.it.com**](https://king403.it.com/) |
 | **Developer** | [**apidevel.org**](https://apidevel.org/) |
+| **Portal korporat** | [king403resmi.github.io](https://king403resmi.github.io/) |
 | **GitHub Organization** | [github.com/King403resmi](https://github.com/King403resmi) |
 | **Repo portal korporat** | [github.com/king403resmi/king403resmi.github.io](https://github.com/king403resmi/king403resmi.github.io) |
 | **Issues / feedback** | [GitHub Issues](https://github.com/king403resmi/king403resmi.github.io/issues) |
 | **Org portal brand** | [github.com/King403situs](https://github.com/King403situs) |
+| **Repo portal brand** | [github.com/King403situs/king403situs.github.io](https://github.com/King403situs/king403situs.github.io) |
+| **HeyLink** | [heylink.me/king403.it.com](https://heylink.me/king403.it.com/) |
+| **HeyCard** | [heycard.link/king403](https://heycard.link/king403) |
+| **YouTube** | [youtube.com/@seosementara5](https://www.youtube.com/@seosementara5) |
 
-[Profil digital & peta internal link →](profil-digital.html)
+[Profil digital & peta internal link →](/profil-digital.html)
 
 ---
 
@@ -94,8 +100,8 @@ Tim kami akan merespons dengan jadwal **discovery call gratis** (30–60 menit).
 - **Apakah melayani klien luar Indonesia?** → Ya, remote engagement.  
 - **Bahasa komunikasi?** → Indonesia & English.
 
-[FAQ lengkap →](faq.html)
+[FAQ lengkap →](/faq.html)
 
 ---
 
-[← FAQ](faq.html) · [Beranda →](index.html)
+[← FAQ](/faq.html) · [Beranda →](/)

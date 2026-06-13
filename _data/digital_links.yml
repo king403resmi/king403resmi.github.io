@@ -1,0 +1,70 @@
+- name: king403.it.com
+  url: "https://king403.it.com/"
+  category: "Domain resmi"
+  description: "Situs resmi brand"
+  homepage: true
+
+- name: apidevel.org
+  url: "https://apidevel.org/"
+  category: "Domain resmi"
+  description: "Developer platform"
+  homepage: true
+
+- name: Portal korporat
+  url: "https://king403resmi.github.io/"
+  label: "king403resmi.github.io"
+  category: "Portal"
+  description: "Profil perusahaan"
+  homepage: true
+
+- name: king403.nekoweb.org
+  url: "https://king403.nekoweb.org/"
+  label: "king403.nekoweb.org"
+  category: "Portal"
+  description: "Portal brand KING403"
+  homepage: true
+
+- name: GitHub King403resmi
+  url: "https://github.com/King403resmi"
+  category: "GitHub"
+  description: "Organisasi engineering"
+  homepage: true
+
+- name: HeyLink
+  url: "https://heylink.me/king403.it.com/"
+  label: "heylink.me/king403.it.com"
+  category: "Link-in-bio"
+  description: "Agregator tautan brand"
+  homepage: true
+
+- name: HeyCard
+  url: "https://heycard.link/king403"
+  label: "heycard.link/king403"
+  category: "Link-in-bio"
+  description: "Kartu profil digital"
+  homepage: true
+
+- name: YouTube
+  url: "https://www.youtube.com/@seosementara5"
+  label: "YouTube KING403"
+  category: "Media sosial"
+  description: "Channel resmi KING403"
+  homepage: true
+
+- name: GitHub King403situs
+  url: "https://github.com/King403situs"
+  category: "GitHub"
+  description: "Portal brand"
+  homepage: true
+
+- name: Repo portal korporat
+  url: "https://github.com/king403resmi/king403resmi.github.io"
+  label: "github.com/king403resmi/king403resmi.github.io"
+  category: "GitHub"
+  description: "Source code portal korporat"
+
+- name: Repo portal brand
+  url: "https://github.com/King403situs/king403situs.github.io"
+  label: "github.com/King403situs/king403situs.github.io"
+  category: "GitHub"
+  description: "Source code portal brand"

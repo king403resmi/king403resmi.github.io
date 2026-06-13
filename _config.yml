@@ -24,9 +24,9 @@ seo:
     KING403, king403, king 403, KING403 resmi, KING403 official, KING403 Indonesia,
     perusahaan KING403, brand KING403, situs KING403, KING403 teknologi digital,
     king403.it.com, KING403 portal, KING403 perusahaan, KING403 company
-  image: "/assets/images/og-image.png"
+  image: "/assets/images/og-image.svg"
 
-logo: "/assets/images/logo.png"
+logo: "/assets/images/logo.svg"
 
 twitter:
   username: King403resmi
@@ -60,18 +60,15 @@ official:
   site: "https://king403.it.com"
   developer: "https://apidevel.org"
   corporate_portal: "https://king403resmi.github.io"
+  nekoweb: "https://king403.nekoweb.org"
   github_org: "https://github.com/King403resmi"
   github_repo: "https://github.com/king403resmi/king403resmi.github.io"
   github_situs_org: "https://github.com/King403situs"
+  github_situs_repo: "https://github.com/King403situs/king403situs.github.io"
   portal_brand: "https://king403situs.github.io"
-
-social:
-  official_site: "https://king403.it.com"
-  developer_platform: "https://apidevel.org"
-  github_org: "https://github.com/King403resmi"
-  github_website_repo: "https://github.com/king403resmi/king403resmi.github.io"
-  corporate_portal: "https://king403resmi.github.io"
-  email: "mailto:hello@king403.com"
+  heycard: "https://heycard.link/king403"
+  heylink: "https://heylink.me/king403.it.com/"
+  youtube: "https://www.youtube.com/@seosementara5"
 
 markdown: kramdown
 permalink: pretty
@@ -89,5 +86,25 @@ defaults:
       path: ""
       type: "pages"
     values:
+      layout: "k403-page"
+      image: "/assets/images/og-image.svg"
+  - scope:
+      path: "index.md"
+    values:
       layout: "default"
-      image: "/assets/images/og-image.png"
+      permalink: "/"
+  - scope:
+      path: "sitemap.xml"
+    values:
+      layout: null
+      sitemap: false
+  - scope:
+      path: "404.html"
+    values:
+      layout: "k403-page"
+      sitemap: false
+  - scope:
+      path: "redirects/**"
+    values:
+      layout: "redirect"
+      sitemap: false
