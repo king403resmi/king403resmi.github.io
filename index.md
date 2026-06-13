@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "KING403 — Situs Resmi Brand & Perusahaan Teknologi Digital Indonesia"
+title: Beranda
 description: "KING403 (king403) adalah brand resmi perusahaan teknologi digital Indonesia sejak 2020. Platform engineering, brand strategy, cloud & operations. king403.it.com · apidevel.org"
 keywords: "KING403, king403, KING403 resmi, KING403 Indonesia, situs KING403, perusahaan KING403, king403.it.com"
 image: /assets/images/og-image.png

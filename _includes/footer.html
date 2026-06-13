@@ -1,0 +1,35 @@
+<footer class="site-footer k403-footer">
+  <div class="wrapper">
+    <nav class="k403-footer__nav" aria-label="Navigasi footer">
+      <a href="{{ '/profil-digital.html' | relative_url }}">Profil Digital</a>
+      <a href="{{ '/tim.html' | relative_url }}">Tim</a>
+      <a href="{{ '/testimoni.html' | relative_url }}">Testimoni</a>
+      <a href="{{ '/kebijakan-privasi.html' | relative_url }}">Privasi</a>
+      <a href="{{ '/syarat-ketentuan.html' | relative_url }}">Syarat</a>
+      <a href="https://king403.it.com/">king403.it.com</a>
+      <a href="https://apidevel.org/">apidevel.org</a>
+    </nav>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">{{ site.title | escape }}</li>
+          {%- if site.author -%}
+            <li class="p-name">{{ site.author.name | default: site.author | escape }}</li>
+          {%- endif -%}
+          {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+  </div>
+</footer>

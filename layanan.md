@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Layanan KING403 — Platform, Brand, Cloud & Operations"
+title: Layanan
 description: "Layanan resmi KING403: pengembangan platform, brand strategy, DevOps cloud, customer support, keamanan, dan analytics."
 keywords: "KING403 layanan, jasa KING403, layanan KING403, KING403 services"
 ---

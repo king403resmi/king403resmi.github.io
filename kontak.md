@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Kontak KING403 — Hubungi Perusahaan Resmi"
+title: Kontak
 description: "Hubungi KING403 resmi: hello@king403.com, alamat Jakarta, formulir konsultasi, dan tautan GitHub."
 keywords: "KING403 kontak, contact KING403, email KING403, hubungi KING403"
 ---

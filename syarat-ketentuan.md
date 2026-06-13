@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Syarat & Ketentuan KING403"
+title: Syarat
 description: "Syarat dan ketentuan penggunaan website dan layanan resmi KING403."
 keywords: "KING403 syarat ketentuan, terms KING403"
 ---

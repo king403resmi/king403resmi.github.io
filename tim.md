@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Tim KING403 — Kepemimpinan & Divisi"
+title: Tim
 description: "Tim profesional KING403: kepemimpinan, divisi engineering, design, DevOps, dan budaya kerja remote-first."
 keywords: "KING403 tim, team KING403, karyawan KING403"
 ---

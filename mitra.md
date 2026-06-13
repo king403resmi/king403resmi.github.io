@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Mitra & Klien KING403 — Testimoni & Partnership"
+title: Mitra
 description: "Mitra teknologi, klien, testimoni, dan program kemitraan B2B resmi KING403 Indonesia."
 keywords: "KING403 mitra, klien KING403, partnership KING403"
 ---

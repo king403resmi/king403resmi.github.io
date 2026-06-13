@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Karir KING403 — Lowongan & Rekrutmen"
+title: Karir
 description: "Lowongan karir di KING403: backend, frontend, DevOps, design, support. Lamar ke careers@king403.com."
 keywords: "KING403 karir, lowongan KING403, kerja KING403, hiring KING403"
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Portofolio Proyek KING403 — Studi Kasus Digital"
+title: Portofolio
 description: "Portofolio dan studi kasus proyek KING403 di fintech, SaaS, edutech, retail, e-commerce, dan media."
 keywords: "KING403 portofolio, proyek KING403, studi kasus KING403"
 ---

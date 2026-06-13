@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Berita & Insight KING403 — Update Perusahaan"
+title: Berita
 description: "Berita, press release, dan insight teknologi dari KING403 — update resmi brand dan perusahaan."
 keywords: "KING403 berita, news KING403, update KING403"
 ---
