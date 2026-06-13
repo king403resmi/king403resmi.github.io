@@ -4,18 +4,21 @@
 
 | | |
 |---|---|
-| 🌐 Website | [king403resmi.github.io](https://king403resmi.github.io/) |
-| 📁 Source | [king403resmi.github.io](https://github.com/king403resmi/king403resmi.github.io) |
-| 📧 Email | [hello@king403.com](mailto:hello@king403.com) |
-| 🔗 Profil digital | [Peta tautan resmi](https://king403resmi.github.io/profil-digital.html) |
+| 🌐 **Situs resmi** | [**king403.it.com**](https://king403.it.com/) |
+| ⚙️ **Developer** | [**apidevel.org**](https://apidevel.org/) |
+| 🏢 **Portal korporat** | [king403resmi.github.io](https://king403resmi.github.io/) |
+| 📧 **Email** | [hello@king403.com](mailto:hello@king403.com) |
+| 🔗 **Peta tautan** | [Profil Digital](https://king403resmi.github.io/profil-digital.html) |
 
 ## Repositories
 
-- **king403resmi.github.io** — Corporate website (Markdown + Jekyll GitHub Pages)
-- Lihat juga: [King403situs](https://github.com/King403situs) — brand portal organization
+- **king403resmi.github.io** — Corporate portal (Markdown + Jekyll)
+- **King403situs** — Brand portal organization
 
-## Follow
+**GitHub:** [github.com/King403resmi](https://github.com/King403resmi)
 
-⭐ Star our repos · 🐛 [Open an issue](https://github.com/king403resmi/king403resmi.github.io/issues) · 💼 [Karir](https://king403resmi.github.io/karir.html)
+---
+
+⭐ Star · 🐛 [Issues](https://github.com/king403resmi/king403resmi.github.io/issues) · 💼 [Karir](https://king403resmi.github.io/karir.html)
 
 © KING403 · Est. 2020

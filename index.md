@@ -9,14 +9,20 @@ title: Beranda
 
 # KING403 — Mitra Transformasi Digital Terpercaya
 
+<p align="center">
+  <a href="https://king403.it.com/"><strong>🌐 Situs Resmi: king403.it.com</strong></a> &nbsp;·&nbsp;
+  <a href="https://apidevel.org/"><strong>⚙️ Developer: apidevel.org</strong></a>
+</p>
+
 **KING403** adalah perusahaan teknologi digital Indonesia yang menghadirkan solusi platform, konsultasi brand, infrastruktur cloud, dan operasional layanan pelanggan untuk bisnis yang ingin tumbuh di era digital.
 
 Sejak **2020**, kami telah mendampingi puluhan proyek — dari startup hingga brand established — dengan pendekatan **engineering-first**, **keamanan by design**, dan **kemitraan jangka panjang**.
 
 <p align="center">
-  <a href="kontak.html"><strong>📩 Konsultasi Gratis</strong></a> &nbsp;·&nbsp;
-  <a href="layanan.html"><strong>🔧 Lihat Layanan</strong></a> &nbsp;·&nbsp;
-  <a href="proyek.html"><strong>📁 Portofolio</strong></a>
+  <a href="https://king403.it.com/"><strong>🌐 king403.it.com</strong></a> &nbsp;·&nbsp;
+  <a href="kontak.html"><strong>📩 Konsultasi</strong></a> &nbsp;·&nbsp;
+  <a href="layanan.html"><strong>🔧 Layanan</strong></a> &nbsp;·&nbsp;
+  <a href="profil-digital.html"><strong>🔗 Tautan Resmi</strong></a>
 </p>
 
 ---
@@ -140,18 +146,28 @@ Proyek enterprise multi-modul: **3–6 bulan** dengan delivery bertahap.
 
 ---
 
-## GitHub & Profil Digital
+## Domain & Platform Resmi
 
-KING403 hadir di GitHub sebagai organisasi resmi — website ini di-build dari repository open-source perusahaan.
+| Peran | URL |
+|-------|-----|
+| **Situs resmi KING403** | [**king403.it.com**](https://king403.it.com/) |
+| **Developer platform** | [**apidevel.org**](https://apidevel.org/) |
+| **Portal korporat** | [king403resmi.github.io](https://king403resmi.github.io/) |
+| **GitHub Organization** | [github.com/King403resmi](https://github.com/King403resmi) |
+
+[Peta tautan lengkap →](profil-digital.html)
+
+---
+
+## GitHub & Open Source
 
 | Resource | Link |
 |----------|------|
 | **Organisasi GitHub** | [github.com/King403resmi](https://github.com/King403resmi) |
-| **Source website ini** | [king403resmi/king403resmi.github.io](https://github.com/king403resmi/king403resmi.github.io) |
-| **Portal brand** | [King403situs · GitHub Pages](https://github.com/King403situs) |
-| **Peta tautan lengkap** | [Profil Digital →](profil-digital.html) |
+| **Source portal ini** | [king403resmi.github.io (repo)](https://github.com/king403resmi/king403resmi.github.io) |
+| **Portal brand** | [King403situs](https://github.com/King403situs) |
 
-🐙 **Follow** organisasi [**@King403resmi**](https://github.com/King403resmi) di GitHub untuk update repo & dokumentasi.
+🐙 Follow [**@King403resmi**](https://github.com/King403resmi) · Developer hub di [**apidevel.org**](https://apidevel.org/)
 
 ---
 
@@ -165,5 +181,5 @@ Diskusikan kebutuhan platform, timeline, dan budget range dengan tim kami. **Kon
 
 <p align="center">
   <img src="/assets/images/team-banner.svg" alt="KING403 Team" width="640"><br>
-  <sub>© 2020–2026 KING403 · <a href="https://github.com/King403resmi">GitHub</a> · <a href="profil-digital.html">Profil Digital</a></sub>
+  <sub>© 2020–2026 KING403 · <a href="https://king403.it.com/">king403.it.com</a> · <a href="https://apidevel.org/">apidevel.org</a> · <a href="profil-digital.html">Tautan Resmi</a></sub>
 </p>

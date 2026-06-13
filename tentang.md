@@ -114,11 +114,12 @@ Detail program: [halaman Mitra & CSR](mitra.html#csr)
 
 | Platform | URL |
 |----------|-----|
-| **Website perusahaan** | [king403resmi.github.io](https://king403resmi.github.io/) |
+| **Situs resmi** | [**king403.it.com**](https://king403.it.com/) |
+| **Developer platform** | [**apidevel.org**](https://apidevel.org/) |
+| **Portal korporat** | [king403resmi.github.io](https://king403resmi.github.io/) |
 | **GitHub Organization** | [github.com/King403resmi](https://github.com/King403resmi) |
-| **Repo website (source)** | [king403resmi.github.io](https://github.com/king403resmi/king403resmi.github.io) |
+| **Repo portal (source)** | [king403resmi.github.io](https://github.com/king403resmi/king403resmi.github.io) |
 | **Org portal brand** | [github.com/King403situs](https://github.com/King403situs) |
-| **LinkedIn** | [linkedin.com/company/king403](https://www.linkedin.com/company/king403) |
 
 [Peta tautan internal lengkap →](profil-digital.html)
 

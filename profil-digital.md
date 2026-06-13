@@ -1,108 +1,103 @@
 ---
 layout: default
-title: Profil Digital & GitHub
+title: Profil Digital & Tautan Resmi
 ---
 
 # Profil Digital KING403
 
-Pusat tautan resmi brand **KING403** di GitHub dan ekosistem digital — untuk klien, mitra, dan developer.
+Pusat **tautan resmi** brand KING403 — situs utama, platform developer, GitHub, dan portal korporat.
 
 <p align="center">
   <img src="/assets/images/logo.png" alt="KING403" width="200">
 </p>
 
 <p align="center">
-  <a href="https://github.com/King403resmi"><strong>🐙 GitHub Organization</strong></a> &nbsp;·&nbsp;
-  <a href="https://king403resmi.github.io/"><strong>🌐 Website Resmi</strong></a> &nbsp;·&nbsp;
-  <a href="kontak.html"><strong>📩 Kontak</strong></a>
+  <a href="https://king403.it.com/"><strong>🌐 Situs Resmi</strong></a> &nbsp;·&nbsp;
+  <a href="https://apidevel.org/"><strong>⚙️ Developer</strong></a> &nbsp;·&nbsp;
+  <a href="https://github.com/King403resmi"><strong>🐙 GitHub</strong></a>
 </p>
+
+---
+
+## Domain Resmi
+
+| Peran | URL | Keterangan |
+|-------|-----|------------|
+| **Situs resmi KING403** | [**king403.it.com**](https://king403.it.com/) | Website utama brand · canonical resmi |
+| **Developer platform** | [**apidevel.org**](https://apidevel.org/) | Portal engineering, tools & layanan developer |
+| **Portal korporat** | [king403resmi.github.io](https://king403resmi.github.io/) | Profil perusahaan (halaman ini) |
+| **Portal brand (GitHub)** | [king403situs.github.io](https://king403situs.github.io/) | Navigasi & informasi brand |
+
+---
+
+## Ekosistem apidevel.org
+
+Platform developer **apidevel.org** menyediakan infrastuktur dan tools pendukung brand:
+
+| Layanan | URL |
+|---------|-----|
+| **Developer hub** | [apidevel.org](https://apidevel.org/) |
+| **RTP panel** | [rtp.apidevel.org](https://rtp.apidevel.org/) |
+| **APK distribution** | [apk.apidevel.org](https://apk.apidevel.org/) |
+
+> Semua subdomain `*.apidevel.org` dikelola tim engineering KING403.
 
 ---
 
 ## GitHub Organization
 
-| | |
-|---|---|
-| **Organisasi** | [**King403resmi**](https://github.com/King403resmi) |
-| **Profil publik** | [github.com/King403resmi](https://github.com/King403resmi) |
-| **Fokus** | Open documentation, company website, engineering resources |
-
-Ikuti organisasi di GitHub untuk update repository dan release notes.
-
----
-
-## Repository Resmi
-
-| Repo | Deskripsi | Link |
-|------|-----------|------|
-| **king403resmi.github.io** | Website perusahaan KING403 (Markdown + Jekyll) | [Repo](https://github.com/king403resmi/king403resmi.github.io) · [Live](https://king403resmi.github.io/) |
-| **King403situs** | Portal informasi brand (GitHub Pages) | [Organisasi King403situs](https://github.com/King403situs) · [king403situs.github.io](https://king403situs.github.io/) |
-
-### Navigasi internal GitHub
-
-Dari halaman organisasi [**King403resmi**](https://github.com/King403resmi):
-
-1. Tab **Repositories** — daftar semua repo publik
-2. Tab **Projects** — roadmap engineering (jika aktif)
-3. Tab **People** — anggota organisasi
-4. **README profil org** — ringkasan perusahaan (edit via repo `.github` profile)
+| Resource | Link |
+|----------|------|
+| **Organisasi resmi** | [github.com/King403resmi](https://github.com/King403resmi) |
+| **Source portal korporat** | [king403resmi/king403resmi.github.io](https://github.com/king403resmi/king403resmi.github.io) |
+| **Org portal brand** | [github.com/King403situs](https://github.com/King403situs) |
+| **Issues & feedback** | [GitHub Issues](https://github.com/king403resmi/king403resmi.github.io/issues) |
 
 ---
 
-## Peta Tautan Resmi
+## Peta Tautan Internal
 
 ```
-king403resmi.github.io          ← Website perusahaan (Anda di sini)
+king403.it.com                 ← SITUS RESMI (canonical)
     │
-    ├── github.com/King403resmi           ← Organisasi GitHub
-    │       └── king403resmi.github.io   ← Source code website
+    ├── apidevel.org           ← Developer platform
+    │       ├── rtp.apidevel.org
+    │       └── apk.apidevel.org
     │
-    ├── github.com/King403situs           ← Org portal brand
-    │       └── king403situs.github.io
+    ├── king403resmi.github.io ← Portal perusahaan (Markdown)
+    │       └── github.com/king403resmi/king403resmi.github.io
     │
-    └── hello@king403.com                 ← Kontak bisnis
+    ├── king403situs.github.io ← Portal brand
+    │       └── github.com/King403situs
+    │
+    └── github.com/King403resmi
 ```
-
----
-
-## Kontribusi & Open Source
-
-KING403 mendukung transparansi engineering:
-
-- **Issues** — laporkan bug website via [GitHub Issues](https://github.com/king403resmi/king403resmi.github.io/issues)
-- **Discussions** — pertanyaan umum teknologi (jika diaktifkan)
-- **Pull Request** — kontribusi ke dokumentasi website (review tim internal)
-
-Pedoman kontribusi: fork → branch → PR → review tim KING403.
-
----
-
-## Profil Tim di GitHub
-
-Anggota tim KING403 yang publik terdaftar under organization [**King403resmi**](https://github.com/King403resmi).  
-Lowongan engineering: [Karir](karir.html) · [careers@king403.com](mailto:careers@king403.com)
-
----
-
-## Platform Profesional Lainnya
-
-| Platform | URL |
-|----------|-----|
-| **Website** | [king403resmi.github.io](https://king403resmi.github.io/) |
-| **GitHub Org** | [github.com/King403resmi](https://github.com/King403resmi) |
-| **LinkedIn** | [linkedin.com/company/king403](https://www.linkedin.com/company/king403) |
-| **Email** | [hello@king403.com](mailto:hello@king403.com) |
 
 ---
 
 ## Verifikasi Identitas
 
-Website ini di-host via **GitHub Pages** dari repository resmi:
+Sebelum percaya sumber online, pastikan:
 
-> 🔗 **Source:** [github.com/king403resmi/king403resmi.github.io](https://github.com/king403resmi/king403resmi.github.io)
-
-Pastikan URL browser Anda `king403resmi.github.io` dan link source mengarah ke repo di atas — bukan fork tidak resmi.
+| ✅ Resmi | ❌ Waspada |
+|----------|-----------|
+| `king403.it.com` | Domain typo / ejaan mirip |
+| `apidevel.org` | Subdomain random non-resmi |
+| `github.com/King403resmi` | Fork / org clone |
+| Email `@king403.com` | Email personal / domain asing |
 
 ---
+
+## Kontribusi & Open Source
+
+- **Bug report website:** [GitHub Issues](https://github.com/king403resmi/king403resmi.github.io/issues)
+- **Pull request:** fork → branch → PR → review tim
+- **Lowongan:** [Karir](karir.html) · [careers@king403.com](mailto:careers@king403.com)
+
+---
+
+## Kontak
+
+📧 [hello@king403.com](mailto:hello@king403.com) · 🤝 [partnership@king403.com](mailto:partnership@king403.com)
 
 [← Beranda](index.html) · [Tentang](tentang.html) · [Kontak →](kontak.html)

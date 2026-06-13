@@ -71,15 +71,16 @@ Tim kami akan merespons dengan jadwal **discovery call gratis** (30–60 menit).
 
 ---
 
-## Media Sosial & GitHub
+## Domain Resmi & GitHub
 
 | Platform | URL |
 |----------|-----|
+| **Situs resmi** | [**king403.it.com**](https://king403.it.com/) |
+| **Developer** | [**apidevel.org**](https://apidevel.org/) |
 | **GitHub Organization** | [github.com/King403resmi](https://github.com/King403resmi) |
-| **Repo website ini** | [github.com/king403resmi/king403resmi.github.io](https://github.com/king403resmi/king403resmi.github.io) |
-| **Issues / feedback web** | [GitHub Issues](https://github.com/king403resmi/king403resmi.github.io/issues) |
-| **Portal brand (org)** | [github.com/King403situs](https://github.com/King403situs) |
-| **LinkedIn** | [linkedin.com/company/king403](https://www.linkedin.com/company/king403) |
+| **Repo portal korporat** | [github.com/king403resmi/king403resmi.github.io](https://github.com/king403resmi/king403resmi.github.io) |
+| **Issues / feedback** | [GitHub Issues](https://github.com/king403resmi/king403resmi.github.io/issues) |
+| **Org portal brand** | [github.com/King403situs](https://github.com/King403situs) |
 
 [Profil digital & peta internal link →](profil-digital.html)
 

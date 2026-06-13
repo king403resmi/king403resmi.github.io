@@ -1,14 +1,11 @@
 title: KING403
-description: Perusahaan teknologi digital, pengembangan platform, dan konsultasi brand Indonesia sejak 2020
+description: Perusahaan teknologi digital Indonesia — situs resmi king403.it.com · developer apidevel.org
 theme: minima
 url: "https://king403resmi.github.io"
 baseurl: ""
 lang: id
 
-# Repo GitHub Pages (internal link + metadata)
 repository: king403resmi/king403resmi.github.io
-
-# Profil GitHub — muncul di footer theme Minima
 github_username: King403resmi
 
 plugins:
@@ -33,19 +30,27 @@ author:
   name: KING403
   email: hello@king403.com
 
-# Social links — footer Minima + SEO entity
 minima:
   social_links:
     github: King403resmi
     email: hello@king403.com
 
-# Jejak digital resmi (sameAs reference untuk konten MD)
+# Domain & jejak digital resmi
+official:
+  site: "https://king403.it.com"
+  developer: "https://apidevel.org"
+  corporate_portal: "https://king403resmi.github.io"
+  github_org: "https://github.com/King403resmi"
+  github_repo: "https://github.com/king403resmi/king403resmi.github.io"
+  github_situs_org: "https://github.com/King403situs"
+  portal_brand: "https://king403situs.github.io"
+
 social:
+  official_site: "https://king403.it.com"
+  developer_platform: "https://apidevel.org"
   github_org: "https://github.com/King403resmi"
   github_website_repo: "https://github.com/king403resmi/king403resmi.github.io"
-  github_situs: "https://github.com/King403situs"
-  website: "https://king403resmi.github.io"
-  linkedin: "https://www.linkedin.com/company/king403"
+  corporate_portal: "https://king403resmi.github.io"
   email: "mailto:hello@king403.com"
 
 markdown: kramdown
