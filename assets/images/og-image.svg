@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="KING403  Perusahaan Teknologi Digital Indonesia">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="KING403 - Perusahaan Teknologi Digital Indonesia">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0a0a0a"/>
@@ -19,6 +19,6 @@
   <text x="140" y="162" text-anchor="middle" fill="url(#gold)" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="72" font-weight="800">K</text>
   <text x="240" y="175" fill="#e8c547" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="96" font-weight="800" letter-spacing="4">KING403</text>
   <text x="240" y="240" fill="#9ca3af" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="32">Perusahaan Teknologi Digital Indonesia</text>
-  <text x="240" y="520" fill="#6b7280" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="24">king403.it.com · apidevel.org · Est. 2020</text>
+  <text x="240" y="520" fill="#6b7280" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="24">king403.it.com | apidevel.org | Est. 2020</text>
   <line x1="240" y1="280" x2="520" y2="280" stroke="url(#gold)" stroke-width="3" opacity="0.6"/>
 </svg>

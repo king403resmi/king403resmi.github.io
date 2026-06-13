@@ -11,7 +11,7 @@ keywords: "KING403 testimoni, review KING403, klien KING403, testimoni KING403 I
   <img src="/assets/images/logo.png" alt="KING403 Testimoni" width="200">
 </p>
 
-Kami bangga menjadi partner transformasi digital bagi **35+ klien aktif** di berbagai industri. Berikut testimoni nyata dari organisasi yang telah bekerja sama dengan **KING403** ù identitas klien disamarkan sesuai kebijakan NDA.
+Kami bangga menjadi partner transformasi digital bagi **35+ klien aktif** di berbagai industri. Berikut testimoni nyata dari organisasi yang telah bekerja sama dengan **KING403** - identitas klien disamarkan sesuai kebijakan NDA.
 
 <div class="k403-testimonial-summary">
   <div class="k403-testimonial-summary__item">
@@ -56,9 +56,9 @@ Kami bangga menjadi partner transformasi digital bagi **35+ klien aktif** di ber
 
 ## Ingin Referensi Lebih Detail?
 
-Untuk case study lengkap (termasuk metrik sebelum/sesudah), hubungi tim kami ù tersedia under NDA jika diperlukan.
+Untuk case study lengkap (termasuk metrik sebelum/sesudah), hubungi tim kami - tersedia under NDA jika diperlukan.
 
-?? [hello@king403.com](mailto:hello@king403.com) ù ?? [Formulir kontak ?](kontak.html)
+[hello@king403.com](mailto:hello@king403.com) | [Formulir kontak](kontak.html)
 
 ---
 
@@ -66,4 +66,4 @@ Untuk case study lengkap (termasuk metrik sebelum/sesudah), hubungi tim kami ù t
   <sub>Testimoni di atas berasal dari klien aktual KING403. Nama perusahaan disamarkan sesuai perjanjian kerahasiaan.</sub>
 </p>
 
-[? Mitra & Klien](mitra.html) ù [Portofolio ?](proyek.html) ù [Beranda ?](index.html)
+[Mitra & Klien](mitra.html) | [Portofolio](proyek.html) | [Beranda](index.html)

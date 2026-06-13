@@ -9,7 +9,7 @@
   {%- assign initial = t.name | slice: 0 -%}
   <article class="k403-testimonial">
     <div class="k403-testimonial__stars" aria-label="Rating {{ t.rating }} dari 5">
-      {%- for i in (1..5) -%}<span class="k403-star{% if i > t.rating %} k403-star--off{% endif %}">?</span>{%- endfor -%}
+      {%- for i in (1..5) -%}<span class="k403-star{% if i > t.rating %} k403-star--off{% endif %}">&#9733;</span>{%- endfor -%}
     </div>
     <blockquote class="k403-testimonial__quote">"{{ t.quote }}"</blockquote>
     <div class="k403-testimonial__author">
@@ -17,7 +17,7 @@
       <div>
         <strong class="k403-testimonial__name">{{ t.name }}</strong>
         <span class="k403-testimonial__role">{{ t.role }}</span>
-        <span class="k403-testimonial__meta">{{ t.company }} ù {{ t.location }}</span>
+        <span class="k403-testimonial__meta">{{ t.company }} | {{ t.location }}</span>
       </div>
     </div>
     <span class="k403-testimonial__badge">{{ t.sector }}</span>
